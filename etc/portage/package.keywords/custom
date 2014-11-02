@@ -1,0 +1,65 @@
+# OpenSHOT
+media-video/openshot ~amd64
+
+# REMMINA
+net-misc/remmina ~amd64
+
+# ??
+dev-python/httplib2 ~amd64
+media-libs/mesa ~amd64
+x11-libs/libdrm ~amd64
+
+# CLEMENTINE
+media-sound/clementine ~amd64
+
+# STEAM
+games-util/steam-launcher ~amd64
+games-util/steam-games-meta ~amd64
+app-emulation/steam-runtime-bin  ~amd64
+games-util/steam-client-meta ~amd64
+games-util/steam-meta ~amd64
+
+# OPTIMUS
+x11-misc/primus **
+#x11-drivers/nvidia-drivers ~amd64
+
+# GOOGLE CHROME
+www-client/google-chrome ~amd64
+
+# TEAMVIEWER
+net-misc/teamviewer ~amd64
+
+# MIDORI
+www-client/midori  ~amd64
+
+# VIRTUALBOX UPTODATE
+app-emulation/virtualbox-modules ~amd64
+app-emulation/virtualbox-additions ~amd64
+app-emulation/virtualbox ~amd64
+app-emulation/virtualbox-extpack-oracle ~amd64
+dev-util/kbuild ~amd64
+
+# YoutubeDL
+net-misc/youtube-dl ~amd64
+
+# OPERA
+www-client/opera-developer ~amd64
+
+# FIREFOX
+www-client/firefox
+dev-libs/nss
+
+# NMON
+sys-process/nmon ~amd64
+
+# THUNDERBIRD
+mail-client/thunderbird
+
+# JOSM
+sci-geosciences/josm
+
+# JAVA
+virtual/jre
+virtual/jdk
+dev-java/icedtea-bin
+dev-java/icedtea-web

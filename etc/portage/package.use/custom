@@ -1,0 +1,46 @@
+# KDE
+dev-qt/qtgui gtkstyle
+x11-themes/qtcurve windeco
+
+# GUAKE
+x11-libs/vte python
+media-libs/mlt python
+
+# OPTIMUS
+x11-base/xorg-drivers video_cards_nvidia
+x11-misc/virtualgl abi_x86_32
+www-plugins/adobe-flash abi_x86_32
+x11-misc/primus abi_x86_32
+
+# KERNEL
+sys-kernel/calculate-sources -minimal
+
+# LAMP
+app-admin/eselect-php apache2
+dev-lang/php apache2 mysql cgi pam ssl xml mysqli pdo xmlreader xmlwriter	#PHP pour LAMP
+
+# PERL
+dev-lang/perl ithreads
+
+# COMPRESSION MULTITHREAD
+app-arch/lbzip2 symlink
+app-arch/pigz symlink
+
+# WIRESHARK
+net-analyzer/wireshark -gtk3
+
+# REMMINA
+net-misc/remmina freerdp
+
+# FIREFOX
+www-client/firefox gstreamer -minimal -linguas_* linguas_fr
+
+# THUNDERBIRD
+mail-client/thunderbird -minimal -linguas_* linguas_fr
+
+# SCREEN
+app-misc/screen multiuser
+
+# DEV QT
+dev-libs/botan threads
+dev-qt/qt-creator examples android git
