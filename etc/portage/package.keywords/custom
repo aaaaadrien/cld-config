@@ -63,3 +63,6 @@ virtual/jre
 virtual/jdk
 dev-java/icedtea-bin
 dev-java/icedtea-web
+
+# VMWare View
+app-emulation/vmware-view-open-client
