@@ -52,3 +52,6 @@ dev-lang/python sqlite
 dev-libs/libxml2 python
 app-arch/rpm lua python
 
+#LANGUES
+app-text/hunspell -linguas_* linguas_fr
+app-text/aspell -linguas_* linguas_fr

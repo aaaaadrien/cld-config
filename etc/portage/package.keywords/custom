@@ -5,9 +5,9 @@ media-video/openshot ~amd64
 net-misc/remmina ~amd64
 
 # ??
-dev-python/httplib2 ~amd64
-media-libs/mesa ~amd64
-x11-libs/libdrm ~amd64
+#dev-python/httplib2 ~amd64
+#media-libs/mesa ~amd64
+#x11-libs/libdrm ~amd64
 
 # CLEMENTINE
 media-sound/clementine ~amd64
@@ -43,11 +43,13 @@ dev-util/kbuild ~amd64
 net-misc/youtube-dl ~amd64
 
 # OPERA
-www-client/opera-developer ~amd64
+www-client/opera ~amd64
 
 # FIREFOX
 www-client/firefox
 dev-libs/nss
+media-libs/libpng
+dev-libs/nspr
 
 # NMON
 sys-process/nmon ~amd64
@@ -66,3 +68,10 @@ dev-java/icedtea-web
 
 # VMWare View
 app-emulation/vmware-view-open-client
+
+# pxz
+app-arch/pxz
+
+# Guake
+x11-terms/guake
+kde-misc/redshift-plasmoid
