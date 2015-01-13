@@ -29,6 +29,20 @@ do
 	fi
 done
 
+chemin="var/lib/portage/"
+if [ -f "/$chemin/world" ]
+then
+	echo "On sauvegarde la liste des applications installées..."
+	if [ -d $chemin ]
+	then
+		cp "/$chemin/world" "$chemin/world"
+	else
+		mkdir -p "$chemin"
+		cp "/$chemin/world" "$chemin/world"
+	fi
+fi
+
+
 git add *
 git commit -m "Mise à jour de la configutaion le $jour à $heure"
 git push origin master
