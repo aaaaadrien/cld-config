@@ -25,7 +25,7 @@ app-crypt/sbsigntool
 app-crypt/shim-signed
 app-editors/nano
 app-editors/vim
-app-emulation/steam-runtime-bin
+app-emulation/playonlinux
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
@@ -51,6 +51,7 @@ app-text/aspell
 app-text/fbreader
 app-text/hunspell
 app-text/wgetpaste
+dev-db/phpmyadmin
 dev-java/icedtea-bin
 dev-lang/php
 dev-libs/quazip
@@ -66,10 +67,7 @@ dev-util/glade
 dev-vcs/git
 games-emulation/higan
 games-misc/cowsay
-games-util/steam-client-meta
-games-util/steam-games-meta
 games-util/steam-launcher
-games-util/steam-meta
 gnome-base/libglade
 kde-base/akonadiconsole
 kde-base/akregator
@@ -183,6 +181,7 @@ kde-base/sweeper
 kde-base/systemsettings
 kde-base/thumbnailers
 kde-base/zeroconf-ioslave
+kde-misc/kim4
 kde-misc/openofficeorg-thumbnail
 kde-misc/synaptiks
 mail-client/thunderbird
@@ -256,7 +255,6 @@ net-print/cups-pdf
 net-print/gutenprint
 net-print/hplip
 net-print/hplip-plugin
-net-print/samsung-unified-linux-driver
 net-proxy/sshuttle
 net-voip/linphone
 net-wireless/broadcom-sta
@@ -333,8 +331,8 @@ www-client/chromium
 www-client/firefox
 www-client/midori
 www-client/opera
-www-plugins/adobe-flash
 www-plugins/chrome-binary-plugins
+www-plugins/freshplayerplugin
 www-servers/apache
 x11-drivers/nvidia-drivers
 x11-libs/gksu

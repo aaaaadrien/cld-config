@@ -9,7 +9,6 @@ media-libs/mlt python
 # OPTIMUS
 x11-base/xorg-drivers video_cards_nvidia
 x11-misc/virtualgl abi_x86_32
-www-plugins/adobe-flash abi_x86_32
 x11-misc/primus abi_x86_32
 
 # KERNEL
@@ -55,3 +54,6 @@ app-arch/rpm lua python
 #LANGUES
 app-text/hunspell -linguas_* linguas_fr
 app-text/aspell -linguas_* linguas_fr
+
+#Fresh Player : Last Flash for Firefox
+media-libs/mesa gles2

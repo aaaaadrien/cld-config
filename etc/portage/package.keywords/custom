@@ -4,20 +4,11 @@ media-video/openshot ~amd64
 # REMMINA
 net-misc/remmina ~amd64
 
-# ??
-#dev-python/httplib2 ~amd64
-#media-libs/mesa ~amd64
-#x11-libs/libdrm ~amd64
-
 # CLEMENTINE
 media-sound/clementine ~amd64
 
 # STEAM
 games-util/steam-launcher ~amd64
-games-util/steam-games-meta ~amd64
-app-emulation/steam-runtime-bin  ~amd64
-games-util/steam-client-meta ~amd64
-games-util/steam-meta ~amd64
 
 # OPTIMUS
 x11-misc/primus **
@@ -66,12 +57,18 @@ virtual/jdk
 dev-java/icedtea-bin
 dev-java/icedtea-web
 
-# VMWare View
-app-emulation/vmware-view-open-client
-
 # pxz
 app-arch/pxz
 
 # Guake
 x11-terms/guake
 kde-misc/redshift-plasmoid
+
+#PlayOnLinux
+app-emulation/playonlinux
+
+#Kim
+kde-misc/kim4
+
+#FreshPlayer: Last Flash for Firefox
+www-plugins/freshplayerplugin
