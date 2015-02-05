@@ -1,3 +1,6 @@
+# KERNEL
+sys-kernel/calculate-sources
+
 # OpenSHOT
 media-video/openshot ~amd64
 

@@ -20,7 +20,6 @@ app-arch/zip
 app-cdr/cdrtools
 app-cdr/dvd+rw-tools
 app-cdr/k3b
-app-crypt/johntheripper
 app-crypt/sbsigntool
 app-crypt/shim-signed
 app-editors/nano
@@ -30,6 +29,7 @@ app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
 app-emulation/virtualbox-modules
+app-forensics/rkhunter
 app-misc/banner
 app-misc/clockywock
 app-misc/figlet
@@ -316,6 +316,7 @@ sys-fs/ntfs3g
 sys-fs/reiserfsprogs
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
+sys-kernel/dracut
 sys-power/acpi
 sys-power/cpupower
 sys-power/powernowd
@@ -326,7 +327,7 @@ sys-process/lsof
 sys-process/nmon
 sys-process/vixie-cron
 virtual/rubygems
-www-apps/chromium-adblock
+www-apps/chromium-ublock
 www-client/chromium
 www-client/firefox
 www-client/midori
