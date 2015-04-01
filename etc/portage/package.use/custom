@@ -1,5 +1,5 @@
 # KDE
-dev-qt/qtgui gtkstyle
+#dev-qt/qtgui gtkstyle
 x11-themes/qtcurve windeco
 
 # GUAKE
@@ -16,7 +16,8 @@ x11-drivers/nvidia-drivers gtk2
 sys-kernel/calculate-sources -minimal
 
 # LAMP
-app-admin/eselect-php apache2
+# move app-admin/eselect-php app-eselect/eselect-php
+app-eselect/eselect-php apache2
 dev-lang/php apache2 mysql cgi pam ssl xml mysqli pdo xmlreader xmlwriter	#PHP pour LAMP
 
 # PERL
@@ -44,6 +45,7 @@ app-misc/screen multiuser
 # DEV QT
 dev-libs/botan threads
 dev-qt/qt-creator examples android git
+
 # LINPHONE
 net-voip/linphone video
 
@@ -61,3 +63,6 @@ media-libs/mesa gles2
 
 #RKHUNTER
 sys-process/lsof rpc
+
+#Mumble
+media-sound/mumble speech
