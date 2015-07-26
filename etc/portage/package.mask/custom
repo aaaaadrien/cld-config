@@ -1,3 +1,6 @@
 # KERNEL
->sys-kernel/calculate-sources-3.14.99
+#>sys-kernel/calculate-sources-3.14.99
+
+#Pb chrome
+#www-plugins/chrome-binary-plugins
 

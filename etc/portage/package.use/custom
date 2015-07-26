@@ -18,7 +18,7 @@ sys-kernel/calculate-sources -minimal
 # LAMP
 # move app-admin/eselect-php app-eselect/eselect-php
 app-eselect/eselect-php apache2
-dev-lang/php apache2 mysql cgi pam ssl xml mysqli pdo xmlreader xmlwriter	#PHP pour LAMP
+dev-lang/php  apache2 mysql cgi pam ssl xml mysqli pdo xmlreader xmlwriter	#PHP pour LAMP
 
 # PERL
 dev-lang/perl ithreads
@@ -27,17 +27,14 @@ dev-lang/perl ithreads
 app-arch/lbzip2 symlink
 app-arch/pigz symlink
 
-# WIRESHARK
-net-analyzer/wireshark -gtk3
-
 # REMMINA
 net-misc/remmina freerdp
 
 # FIREFOX
-www-client/firefox gstreamer -minimal -linguas_* linguas_fr
+#www-client/firefox -linguas_* linguas_fr
 
 # THUNDERBIRD
-mail-client/thunderbird -lightning -minimal -linguas_* linguas_fr
+#mail-client/thunderbird -linguas_* linguas_fr
 
 # SCREEN
 app-misc/screen multiuser
@@ -45,9 +42,6 @@ app-misc/screen multiuser
 # DEV QT
 dev-libs/botan threads
 dev-qt/qt-creator examples android git
-
-# LINPHONE
-net-voip/linphone video
 
 #RPM
 dev-lang/python sqlite
@@ -66,3 +60,11 @@ sys-process/lsof rpc
 
 #Mumble
 media-sound/mumble speech
+
+# HUGIN
+sci-libs/hdf5 -fortran -cxx
+dev-libs/boost python
+
+#Openshot
+media-libs/mlt frei0r
+

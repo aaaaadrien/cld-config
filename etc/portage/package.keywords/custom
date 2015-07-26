@@ -5,26 +5,21 @@ sys-kernel/calculate-sources
 media-video/openshot ~amd64
 
 # REMMINA
-net-misc/remmina ~amd64
+net-misc/remmina
+net-misc/freerdp
 
 # CLEMENTINE
 media-sound/clementine ~amd64
 
 # STEAM
-games-util/steam-launcher ~amd64
+games-util/steam-launcher
 
 # OPTIMUS
 x11-misc/primus **
 #x11-drivers/nvidia-drivers ~amd64
 
-# GOOGLE CHROME
-#www-client/google-chrome ~amd64
-
 # TEAMVIEWER
 net-misc/teamviewer ~amd64
-
-# MIDORI
-www-client/midori  ~amd64
 
 # VIRTUALBOX UPTODATE
 app-emulation/virtualbox-modules ~amd64
@@ -39,30 +34,8 @@ net-misc/youtube-dl ~amd64
 # OPERA
 www-client/opera ~amd64
 
-# FIREFOX
-#www-client/firefox
-#dev-libs/nss
-#media-libs/libpng
-#dev-libs/nspr
-
 # NMON
 sys-process/nmon ~amd64
-
-# THUNDERBIRD
-mail-client/thunderbird
-
-# JOSM
-sci-geosciences/josm
-
-# JAVA
-virtual/jre
-virtual/jdk
-dev-java/icedtea-bin
-dev-java/icedtea-web
-
-# LIBREOFFICE
-#app-office/libreoffice
-#app-office/libreoffice-l10n
 
 # pxz
 app-arch/pxz
@@ -71,26 +44,14 @@ app-arch/pxz
 x11-terms/guake
 kde-misc/redshift-plasmoid
 
-#PlayOnLinux
-app-emulation/playonlinux
-
 #Kim
 kde-misc/kim4
 
 #FreshPlayer: Last Flash for Firefox
 www-plugins/freshplayerplugin
 
-#LXC
-app-emulation/lxc
-sys-apps/yum
-dev-python/sqlitecachec
-
 # KDE++
 kde-misc/homerun
-
-# LINPHONE
-net-voip/linphone
-net-libs/libeXosip
 
 # STEAM
 app-emulation/steam-runtime-bin  ~amd64
@@ -98,3 +59,9 @@ games-util/steam-games-meta ~amd64
 games-util/steam-launcher ~amd64
 games-util/steam-meta ~amd64
 games-util/steam-client-meta ~amd64
+
+# Mumble
+media-sound/mumble
+
+# MTP Android
+kde-misc/kio-mtp
