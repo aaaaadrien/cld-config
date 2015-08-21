@@ -4,3 +4,6 @@
 #Pb chrome
 #www-plugins/chrome-binary-plugins
 
+# Firefox crash
+#=www-client/firefox-40.0.2
+#Correctif layers.offmainthreadcomposition.enabled à false
