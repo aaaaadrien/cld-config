@@ -24,7 +24,6 @@ app-editors/vim
 app-emulation/virtualbox
 app-emulation/virtualbox-extpack-oracle
 app-emulation/virtualbox-modules
-app-emulation/wine
 app-forensics/rkhunter
 app-misc/banner
 app-misc/clockywock
@@ -47,8 +46,6 @@ app-text/aspell
 app-text/hunspell
 app-text/wgetpaste
 dev-games/physfs
-dev-java/icedtea-bin
-dev-java/icedtea-web
 dev-lang/php
 dev-libs/quazip
 dev-perl/XML-Parser
@@ -59,6 +56,7 @@ dev-qt/qtgui
 dev-vcs/git
 games-emulation/dosbox
 games-misc/cowsay
+games-misc/games-envd
 games-util/steam-launcher
 gnome-base/libglade
 kde-apps/amor
@@ -151,11 +149,11 @@ mail-client/thunderbird
 media-fonts/terminus-font
 media-gfx/calculate-wallpapers
 media-gfx/dm-themes-calculate
+media-gfx/gfxboot-themes-calculate
 media-gfx/gimp
 media-gfx/grub-splashes-calculate
 media-gfx/hugin
 media-gfx/imagemagick
-media-gfx/inkscape
 media-gfx/kdm-themes-calculate
 media-gfx/metapixel
 media-gfx/syslinux-themes-calculate
@@ -165,7 +163,6 @@ media-libs/libsdl2
 media-plugins/gst-plugins-meta
 media-sound/audacity
 media-sound/clementine
-media-sound/mumble
 media-sound/normalize
 media-sound/pavucontrol
 media-sound/sox
@@ -202,6 +199,7 @@ net-misc/ntp
 net-misc/proxychains
 net-misc/vconfig
 net-misc/whois
+net-misc/youtube-dl
 net-p2p/ktorrent
 net-print/cnijfilter
 net-print/cups
@@ -216,12 +214,10 @@ net-wireless/wpa_supplicant
 sys-apps/acl
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils
-sys-apps/calculate-utils:0
 sys-apps/calculate-utils:3
 sys-apps/dcfldd
 sys-apps/dmidecode
 sys-apps/ethtool
-sys-apps/gnome-disk-utility
 sys-apps/gptfdisk
 sys-apps/gsmartcontrol
 sys-apps/hdparm
@@ -247,7 +243,6 @@ sys-apps/usbutils
 sys-apps/v86d
 sys-auth/pam_update
 sys-block/partitionmanager
-sys-boot/calcboot
 sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
@@ -284,8 +279,6 @@ sys-process/vixie-cron
 virtual/rubygems
 www-client/chromium
 www-client/firefox
-www-client/opera
-www-plugins/adobe-flash
 www-plugins/chrome-binary-plugins
 www-plugins/chrome-ublock
 www-servers/apache
@@ -299,6 +292,7 @@ x11-misc/xdotool
 x11-terms/guake
 x11-themes/calculate-icon-theme
 x11-themes/calculate-xcursors
+x11-themes/gnome-themes-standard
 x11-themes/gtk-engines
 x11-themes/oxygen-gtk:2
 x11-themes/oxygen-gtk:3
