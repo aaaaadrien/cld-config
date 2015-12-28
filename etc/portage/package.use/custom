@@ -31,7 +31,7 @@ app-arch/pigz symlink
 net-misc/remmina freerdp
 
 # FIREFOX
-#www-client/firefox -linguas_* linguas_fr
+#www-client/firefox -linguas_* linguas_fr -system-* startup-notification
 
 # THUNDERBIRD
 #mail-client/thunderbird -linguas_* linguas_fr
@@ -68,3 +68,5 @@ dev-libs/boost python
 #Openshot
 media-libs/mlt frei0r
 
+# Wine Dernière version
+app-emulation/wine -vaapi -lcms

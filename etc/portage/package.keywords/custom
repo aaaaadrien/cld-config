@@ -1,5 +1,5 @@
 # KERNEL
-<sys-kernel/calculate-sources-4.2
+#<sys-kernel/calculate-sources-4.2
 
 # OpenSHOT
 media-video/openshot ~amd64
@@ -9,7 +9,7 @@ net-misc/remmina
 net-misc/freerdp
 
 # CLEMENTINE
-media-sound/clementine ~amd64
+media-sound/clementine
 
 # STEAM
 games-util/steam-launcher
@@ -37,6 +37,9 @@ www-client/opera ~amd64
 # NMON
 sys-process/nmon ~amd64
 
+# Glances
+sys-process/glances
+
 # pxz
 app-arch/pxz
 
@@ -47,21 +50,21 @@ kde-misc/redshift-plasmoid
 #Kim
 kde-misc/kim4
 
-#FreshPlayer: Last Flash for Firefox
-www-plugins/freshplayerplugin
-
 # KDE++
 kde-misc/homerun
 
 # STEAM
-app-emulation/steam-runtime-bin  ~amd64
-games-util/steam-games-meta ~amd64
+#app-emulation/steam-runtime-bin  ~amd64
+#games-util/steam-games-meta ~amd64
 games-util/steam-launcher ~amd64
-games-util/steam-meta ~amd64
-games-util/steam-client-meta ~amd64
-
-# Mumble
-media-sound/mumble
+#games-util/steam-meta ~amd64
+#games-util/steam-client-meta ~amd64
 
 # MTP Android
 kde-misc/kio-mtp
+
+# Blobby
+games-arcade/blobby2
+
+# Wine
+#<app-emulation/wine-1.7.54
