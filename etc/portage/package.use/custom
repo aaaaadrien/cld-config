@@ -4,13 +4,12 @@ x11-themes/qtcurve windeco
 
 # GUAKE
 x11-libs/vte python
-media-libs/mlt python
 
 # OPTIMUS
 x11-base/xorg-drivers video_cards_nvidia
 x11-misc/virtualgl abi_x86_32
 x11-misc/primus abi_x86_32
-x11-drivers/nvidia-drivers gtk2
+x11-drivers/nvidia-drivers compat 
 
 # KERNEL
 sys-kernel/calculate-sources -minimal
@@ -31,7 +30,10 @@ app-arch/pigz symlink
 net-misc/remmina freerdp
 
 # FIREFOX
-#www-client/firefox -linguas_* linguas_fr -system-* startup-notification
+# layers.offmainthreadcomposition.async-animations;false 
+# layers.offmainthreadcomposition.enabled;false
+# https://bugs.gentoo.org/show_bug.cgi?id=558150#c34
+www-client/firefox -system-cairo 
 
 # THUNDERBIRD
 #mail-client/thunderbird -linguas_* linguas_fr
@@ -66,7 +68,7 @@ sci-libs/hdf5 -fortran -cxx
 dev-libs/boost python
 
 #Openshot
-media-libs/mlt frei0r
+#media-libs/mlt frei0r
 
-# Wine Dernière version
-app-emulation/wine -vaapi -lcms
+# Teamviewer sans WINE Système
+net-misc/teamviewer -system-wine

@@ -2,21 +2,21 @@
 #<sys-kernel/calculate-sources-4.2
 
 # OpenSHOT
-media-video/openshot ~amd64
+#media-video/openshot
 
 # REMMINA
 net-misc/remmina
 net-misc/freerdp
 
 # CLEMENTINE
-media-sound/clementine
+#media-sound/clementine
 
 # STEAM
 games-util/steam-launcher
 
 # OPTIMUS
 x11-misc/primus **
-#x11-drivers/nvidia-drivers ~amd64
+x11-drivers/nvidia-drivers ~amd64
 
 # TEAMVIEWER
 net-misc/teamviewer ~amd64
@@ -30,6 +30,10 @@ dev-util/kbuild ~amd64
 
 # YoutubeDL
 net-misc/youtube-dl ~amd64
+
+# Firefox Bin car Firefox il crash
+#www-client/firefox
+www-client/firefox-bin
 
 # OPERA
 www-client/opera ~amd64

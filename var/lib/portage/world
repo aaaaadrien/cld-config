@@ -1,3 +1,8 @@
+#------------------------------------------------------------------------------
+# Modified Calculate-core 3.4.5.29
+# Processed template files:
+# /var/lib/layman/distros/profiles/templates/3.2/6_ac_update_sync/world/update/201-300/245
+#------------------------------------------------------------------------------
 app-admin/ccze
 app-admin/conky
 app-admin/hddtemp
@@ -45,8 +50,8 @@ app-shells/bash
 app-shells/bash-completion
 app-text/aspell
 app-text/hunspell
+app-text/tree
 app-text/wgetpaste
-dev-db/phpmyadmin
 dev-games/physfs
 dev-lang/php
 dev-libs/nss
@@ -67,9 +72,12 @@ gnome-base/libglade
 kde-apps/amor
 kde-apps/ark
 kde-apps/audiocd-kio
+kde-apps/calendarjanitor
 kde-apps/dolphin
 kde-apps/ffmpegthumbs
 kde-apps/gwenview
+kde-apps/kabcclient
+kde-apps/kaddressbook
 kde-apps/kamera
 kde-apps/kcalc
 kde-apps/kcontrol
@@ -80,6 +88,10 @@ kde-apps/kdeartwork-kscreensaver
 kde-apps/kdegraphics-mobipocket
 kde-apps/kdenetwork-filesharing
 kde-apps/kdepasswd
+kde-apps/kdepim-icons
+kde-apps/kdepim-kresources
+kde-apps/kdepim-l10n
+kde-apps/kdepim-runtime
 kde-apps/kdialog
 kde-apps/keditbookmarks
 kde-apps/kfind
@@ -87,6 +99,7 @@ kde-apps/kfmclient
 kde-apps/kgamma
 kde-apps/kmix
 kde-apps/konsole
+kde-apps/konsolekalendar
 kde-apps/kpat
 kde-apps/krdc
 kde-apps/ksaneplugin
@@ -109,17 +122,10 @@ kde-apps/print-manager
 kde-apps/svgpart
 kde-apps/thumbnailers
 kde-apps/zeroconf-ioslave
-kde-base/calendarjanitor
 kde-base/freespacenotifier
-kde-base/kabcclient
-kde-base/kaddressbook
 kde-base/kcheckpass
 kde-base/kcminit
 kde-base/kdebase-startkde
-kde-base/kdepim-icons
-kde-base/kdepim-kresources
-kde-base/kdepim-l10n
-kde-base/kdepim-runtime
 kde-base/kdeplasma-addons
 kde-base/kdm
 kde-base/kephal
@@ -127,7 +133,6 @@ kde-base/khotkeys
 kde-base/kinfocenter
 kde-base/klipper
 kde-base/kmenuedit
-kde-base/konsolekalendar
 kde-base/kscreensaver
 kde-base/ksmserver
 kde-base/ksplash
@@ -137,6 +142,7 @@ kde-base/ksysguard
 kde-base/ksystraycmd
 kde-base/kwin
 kde-base/kwrited
+kde-base/legacy-icons
 kde-base/libkworkspace
 kde-base/liboxygenstyle
 kde-base/libplasmaclock
@@ -170,6 +176,7 @@ media-libs/libsdl2
 media-plugins/gst-plugins-meta
 media-sound/audacity
 media-sound/clementine
+media-sound/easytag
 media-sound/mumble
 media-sound/normalize
 media-sound/pavucontrol
@@ -179,7 +186,6 @@ media-video/acidrip
 media-video/dvdauthor
 media-video/dvgrab
 media-video/kffmpegthumbnailer
-media-video/openshot
 media-video/qt-recordmydesktop
 media-video/simplescreenrecorder
 media-video/smplayer
@@ -242,6 +248,7 @@ sys-apps/lm_sensors
 sys-apps/lsb-release
 sys-apps/lshw
 sys-apps/memtest86+
+sys-apps/mlocate
 sys-apps/openrc
 sys-apps/pciutils
 sys-apps/pcmciautils
@@ -259,6 +266,7 @@ sys-boot/gnu-efi
 sys-boot/grub:2
 sys-boot/os-prober
 sys-devel/prelink
+sys-firmware/amdgpu-ucode
 sys-firmware/b43-firmware
 sys-fs/btrfs-progs
 sys-fs/dmraid
@@ -272,7 +280,7 @@ sys-fs/mdadm
 sys-fs/mtools
 sys-fs/ntfs3g
 sys-fs/reiserfsprogs
-sys-fs/sshfs-fuse
+sys-fs/sshfs
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
 sys-kernel/calculate-sources:4.1.8
