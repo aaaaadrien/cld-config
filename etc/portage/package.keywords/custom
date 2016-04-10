@@ -18,9 +18,6 @@ games-util/steam-launcher
 x11-misc/primus **
 x11-drivers/nvidia-drivers ~amd64
 
-# TEAMVIEWER
-net-misc/teamviewer ~amd64
-
 # VIRTUALBOX UPTODATE
 app-emulation/virtualbox-modules ~amd64
 app-emulation/virtualbox-additions ~amd64
@@ -30,10 +27,6 @@ dev-util/kbuild ~amd64
 
 # YoutubeDL
 net-misc/youtube-dl ~amd64
-
-# Firefox Bin car Firefox il crash
-#www-client/firefox
-www-client/firefox-bin
 
 # OPERA
 www-client/opera ~amd64

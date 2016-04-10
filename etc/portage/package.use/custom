@@ -69,6 +69,4 @@ dev-libs/boost python
 
 #Openshot
 #media-libs/mlt frei0r
-
-# Teamviewer sans WINE Système
-net-misc/teamviewer -system-wine
+#media-video/openshot python_targets_python3_4 python_single_target_python3_4

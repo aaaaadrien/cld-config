@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
-# Modified Calculate-core 3.4.5.29
+# Modified Calculate-core 3.4.5.33
 # Processed template files:
-# /var/lib/layman/distros/profiles/templates/3.2/6_ac_update_sync/world/update/201-300/245
+# /var/lib/layman/distros/profiles/templates/3.2/6_ac_update_sync/world/update/201-300/246
 #------------------------------------------------------------------------------
 app-admin/ccze
 app-admin/conky
@@ -186,6 +186,7 @@ media-video/acidrip
 media-video/dvdauthor
 media-video/dvgrab
 media-video/kffmpegthumbnailer
+media-video/openshot
 media-video/qt-recordmydesktop
 media-video/simplescreenrecorder
 media-video/smplayer
@@ -266,7 +267,6 @@ sys-boot/gnu-efi
 sys-boot/grub:2
 sys-boot/os-prober
 sys-devel/prelink
-sys-firmware/amdgpu-ucode
 sys-firmware/b43-firmware
 sys-fs/btrfs-progs
 sys-fs/dmraid
