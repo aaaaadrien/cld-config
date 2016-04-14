@@ -1,7 +1,3 @@
-# KDE
-#dev-qt/qtgui gtkstyle
-x11-themes/qtcurve windeco
-
 # GUAKE
 x11-libs/vte python
 
@@ -15,9 +11,8 @@ x11-drivers/nvidia-drivers compat
 sys-kernel/calculate-sources -minimal
 
 # LAMP
-# move app-admin/eselect-php app-eselect/eselect-php
 app-eselect/eselect-php apache2
-dev-lang/php  apache2 mysql cgi pam ssl xml mysqli pdo xmlreader xmlwriter	#PHP pour LAMP
+dev-lang/php  apache2 mysql cgi pam ssl xml mysqli pdo xmlreader xmlwriter
 
 # PERL
 dev-lang/perl ithreads
@@ -33,7 +28,7 @@ net-misc/remmina freerdp
 # layers.offmainthreadcomposition.async-animations;false 
 # layers.offmainthreadcomposition.enabled;false
 # https://bugs.gentoo.org/show_bug.cgi?id=558150#c34
-www-client/firefox -system-cairo 
+#www-client/firefox -system-cairo 
 
 # THUNDERBIRD
 #mail-client/thunderbird -linguas_* linguas_fr
@@ -41,21 +36,14 @@ www-client/firefox -system-cairo
 # SCREEN
 app-misc/screen multiuser
 
-# DEV QT
-dev-libs/botan threads
-dev-qt/qt-creator examples android git
-
 #RPM
 dev-lang/python sqlite
 dev-libs/libxml2 python
 app-arch/rpm lua python
 
 #LANGUES
-app-text/hunspell -linguas_* linguas_fr
-app-text/aspell -linguas_* linguas_fr
-
-#Fresh Player : Last Flash for Firefox
-media-libs/mesa gles2
+#app-text/hunspell -linguas_* linguas_fr
+#app-text/aspell -linguas_* linguas_fr
 
 #RKHUNTER
 sys-process/lsof rpc
@@ -64,9 +52,10 @@ sys-process/lsof rpc
 media-sound/mumble speech
 
 # HUGIN
-sci-libs/hdf5 -fortran -cxx
-dev-libs/boost python
+#sci-libs/hdf5 -fortran -cxx
+#dev-libs/boost python
 
 #Openshot
 #media-libs/mlt frei0r
 #media-video/openshot python_targets_python3_4 python_single_target_python3_4
+

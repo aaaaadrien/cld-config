@@ -16,7 +16,7 @@ games-util/steam-launcher
 
 # OPTIMUS
 x11-misc/primus **
-x11-drivers/nvidia-drivers ~amd64
+#x11-drivers/nvidia-drivers ~amd64
 
 # VIRTUALBOX UPTODATE
 app-emulation/virtualbox-modules ~amd64
@@ -37,31 +37,10 @@ sys-process/nmon ~amd64
 # Glances
 sys-process/glances
 
-# pxz
-app-arch/pxz
-
 # Guake
 x11-terms/guake
 kde-misc/redshift-plasmoid
 
-#Kim
-kde-misc/kim4
-
-# KDE++
-kde-misc/homerun
-
-# STEAM
-#app-emulation/steam-runtime-bin  ~amd64
-#games-util/steam-games-meta ~amd64
-games-util/steam-launcher ~amd64
-#games-util/steam-meta ~amd64
-#games-util/steam-client-meta ~amd64
-
-# MTP Android
-kde-misc/kio-mtp
-
-# Blobby
-games-arcade/blobby2
-
 # Wine
 #<app-emulation/wine-1.7.54
+
