@@ -1,5 +1,5 @@
 # KERNEL
-#>sys-kernel/calculate-sources-4.2
+sys-kernel/calculate-sources-4.4.15
 
 #Pb chrome
 #www-plugins/chrome-binary-plugins

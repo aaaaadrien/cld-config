@@ -1,5 +1,5 @@
 # KERNEL
-#<sys-kernel/calculate-sources-4.2
+=sys-kernel/calculate-sources-4.4.16
 
 # OpenSHOT
 #media-video/openshot
@@ -16,7 +16,7 @@ games-util/steam-launcher
 
 # OPTIMUS
 x11-misc/primus **
-#x11-drivers/nvidia-drivers ~amd64
+x11-drivers/nvidia-drivers
 
 # VIRTUALBOX UPTODATE
 app-emulation/virtualbox-modules ~amd64
@@ -30,6 +30,7 @@ net-misc/youtube-dl ~amd64
 
 # OPERA
 www-client/opera ~amd64
+www-client/opera-developer ~amd64
 
 # NMON
 sys-process/nmon ~amd64
@@ -38,9 +39,15 @@ sys-process/nmon ~amd64
 sys-process/glances
 
 # Guake
-x11-terms/guake
+<x11-terms/guake-0.8.5
 kde-misc/redshift-plasmoid
 
 # Wine
 #<app-emulation/wine-1.7.54
+
+# KDE Connect
+kde-misc/kdeconnect
+
+# KDE Redshift Control
+kde-misc/plasma-applet-redshift-control
 
