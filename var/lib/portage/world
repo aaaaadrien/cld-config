@@ -12,6 +12,7 @@ app-arch/rar
 app-arch/rpm
 app-arch/unrar
 app-arch/unzip
+app-cdr/k3b
 app-crypt/johntheripper
 app-crypt/sbsigntool
 app-crypt/shim-signed
@@ -31,6 +32,7 @@ app-office/libreoffice-l10n
 app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
+app-shells/bash-completion
 app-text/wgetpaste
 dev-db/mariadb
 dev-java/icedtea-bin:8
@@ -43,6 +45,7 @@ dev-vcs/git
 games-emulation/dosbox
 games-emulation/vbam
 games-util/steam-launcher
+gnome-base/libgnome-keyring
 kde-apps/ark
 kde-apps/dolphin
 kde-apps/dolphin-plugins

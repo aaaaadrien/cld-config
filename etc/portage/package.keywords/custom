@@ -39,7 +39,9 @@ sys-process/nmon ~amd64
 sys-process/glances
 
 # Guake
-<x11-terms/guake-0.8.5
+x11-terms/guake
+
+#Redshift
 kde-misc/redshift-plasmoid
 
 # Wine
@@ -51,3 +53,7 @@ kde-misc/kdeconnect
 # KDE Redshift Control
 kde-misc/plasma-applet-redshift-control
 
+
+
+games-strategy/0ad-data
+games-strategy/0ad

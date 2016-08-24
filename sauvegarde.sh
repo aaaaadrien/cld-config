@@ -43,6 +43,19 @@ then
 fi
 
 
+chemin="etc/calculate/" 
+if [ -f "/$chemin/calculate.env" ]
+then
+        echo "On sauvegarde les préférences du système calculate..." 
+	if [ -d $chemin ]
+	then
+		cp "/$chemin/calculate.env" "$chemin/calculate.env"
+	else
+		mkdir -p "$chemin"
+		cp "/$chemin/calculate.env" "$chemin/calculate.env"
+	fi
+fi
+
 git add *
 git commit -m "Mise à jour de la configutaion le $jour à $heure"
 git push origin master
