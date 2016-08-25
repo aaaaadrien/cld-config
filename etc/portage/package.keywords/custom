@@ -1,39 +1,42 @@
-# KERNEL
+# Kernel
 =sys-kernel/calculate-sources-4.4.16
 
-# OpenSHOT
+# Openshot (éditeur vidéo)
 #media-video/openshot
 
-# REMMINA
+# Remmina
 net-misc/remmina
 net-misc/freerdp
 
-# CLEMENTINE
+# Clementine dernière version (plus utilisé)
 #media-sound/clementine
 
-# STEAM
+# Steam
 games-util/steam-launcher
 
-# OPTIMUS
+# Support de la carte NVidia Optimus
 x11-misc/primus **
 x11-drivers/nvidia-drivers
 
-# VIRTUALBOX UPTODATE
+# VirtualBox Récent++
 app-emulation/virtualbox-modules ~amd64
 app-emulation/virtualbox-additions ~amd64
 app-emulation/virtualbox ~amd64
 app-emulation/virtualbox-extpack-oracle ~amd64
 dev-util/kbuild ~amd64
 
-# YoutubeDL
-net-misc/youtube-dl ~amd64
+# Mumbule ! 
+media-sound/mumble
 
-# OPERA
-www-client/opera ~amd64
-www-client/opera-developer ~amd64
+# Youtube DL
+net-misc/youtube-dl
 
-# NMON
-sys-process/nmon ~amd64
+# Opera
+www-client/opera
+www-client/opera-developer
+
+# nmon
+sys-process/nmon
 
 # Glances
 sys-process/glances
@@ -41,19 +44,17 @@ sys-process/glances
 # Guake
 x11-terms/guake
 
-#Redshift
-kde-misc/redshift-plasmoid
-
-# Wine
-#<app-emulation/wine-1.7.54
-
-# KDE Connect
-kde-misc/kdeconnect
-
-# KDE Redshift Control
+# Redshift (rougir écran le soir)
 kde-misc/plasma-applet-redshift-control
 
+# WINE (Plus utilisé)
+#<app-emulation/wine-1.7.54
+
+# KDE Connect (Android)
+kde-misc/kdeconnect
 
 
-games-strategy/0ad-data
-games-strategy/0ad
+
+# ZZZ TEST
+#games-strategy/0ad-data
+#games-strategy/0ad
