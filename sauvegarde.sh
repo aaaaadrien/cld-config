@@ -43,7 +43,7 @@ then
 fi
 
 
-chemin="etc/calculate/" 
+chemin="var/lib/calculate/" 
 if [ -f "/$chemin/calculate.env" ]
 then
         echo "On sauvegarde les préférences du système calculate..." 

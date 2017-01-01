@@ -1,15 +1,15 @@
 # Kernel
-=sys-kernel/calculate-sources-4.4.16
+#sys-kernel/calculate-sources
 
 # Openshot (éditeur vidéo)
 #media-video/openshot
 
-# Remmina
-net-misc/remmina
-net-misc/freerdp
 
 # Clementine dernière version (plus utilisé)
 #media-sound/clementine
+
+# Mixxx
+#media-sound/mixxx
 
 # Steam
 games-util/steam-launcher
@@ -25,6 +25,9 @@ app-emulation/virtualbox ~amd64
 app-emulation/virtualbox-extpack-oracle ~amd64
 dev-util/kbuild ~amd64
 
+# VMWare
+app-emulation/vmware-player
+
 # Mumbule ! 
 media-sound/mumble
 
@@ -33,7 +36,6 @@ net-misc/youtube-dl
 
 # Opera
 www-client/opera
-www-client/opera-developer
 
 # nmon
 sys-process/nmon
@@ -44,6 +46,9 @@ sys-process/glances
 # Guake
 x11-terms/guake
 
+# conky (récent car 1.0.9 se lance plus)
+app-admin/conky
+
 # Redshift (rougir écran le soir)
 kde-misc/plasma-applet-redshift-control
 
@@ -53,8 +58,11 @@ kde-misc/plasma-applet-redshift-control
 # KDE Connect (Android)
 kde-misc/kdeconnect
 
-
+# Nero
+app-cdr/nero
 
 # ZZZ TEST
 #games-strategy/0ad-data
 #games-strategy/0ad
+media-gfx/gscan2pdf
+app-backup/kfoldersync

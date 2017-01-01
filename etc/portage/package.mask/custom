@@ -1,6 +1,5 @@
 # KERNEL
 =sys-kernel/calculate-sources-4.4.15
 
-#Pb chrome
-#www-plugins/chrome-binary-plugins
-
+# Openshot
+=media-video/openshot-2.1.0
