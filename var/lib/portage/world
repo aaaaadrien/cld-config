@@ -25,7 +25,6 @@ app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
 app-emulation/virtualbox-modules
-app-emulation/vmware-player
 app-forensics/rkhunter
 app-misc/mc
 app-misc/screen
@@ -44,6 +43,7 @@ dev-java/icedtea-bin:8
 dev-lang/php
 dev-perl/Tk
 dev-perl/XML-Parser
+dev-python/PyQt5
 dev-python/pygobject:3
 dev-python/pywebkitgtk
 dev-qt/qt-creator
@@ -53,7 +53,6 @@ dev-vcs/git
 games-arcade/blobby2
 games-emulation/dosbox
 games-emulation/vbam
-games-simulation/openttd
 games-util/steam-launcher
 kde-apps/ark
 kde-apps/dolphin
@@ -172,6 +171,7 @@ www-client/vivaldi
 www-plugins/adobe-flash
 www-plugins/chrome-binary-plugins
 www-servers/apache
+x11-drivers/nvidia-drivers
 x11-misc/bumblebee
 x11-misc/primus
 x11-misc/x11vnc

@@ -29,6 +29,19 @@ do
 	fi
 done
 
+chemin="etc/portage/make.conf/"
+if [ -f "/$chemin/custom" ]
+then
+        echo "On sauvegarde le make.conf customisé..."
+        if [ -d $chemin ]
+        then
+                cp "/$chemin/custom" "$chemin/custom"
+        else
+                mkdir -p "$chemin"
+                cp "/$chemin/custom" "$chemin/custom"
+        fi
+fi
+
 chemin="var/lib/portage/"
 if [ -f "/$chemin/world" ]
 then

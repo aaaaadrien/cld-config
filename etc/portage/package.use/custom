@@ -6,6 +6,7 @@ x11-base/xorg-drivers video_cards_nvidia
 x11-misc/virtualgl abi_x86_32
 x11-misc/primus abi_x86_32
 x11-drivers/nvidia-drivers compat 
+dev-libs/jansson abi_x86_32
 
 # KERNEL
 sys-kernel/calculate-sources -minimal
