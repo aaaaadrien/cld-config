@@ -1,9 +1,12 @@
 # Kernel
-#sys-kernel/calculate-sources
+<sys-kernel/calculate-sources-4.9.10
 
 # Openshot (éditeur vidéo)
 #media-video/openshot
 
+# Fortinet
+net-misc/networkmanager-fortisslvpn
+net-vpn/openfortivpn
 
 # Clementine dernière version (plus utilisé)
 #media-sound/clementine
@@ -27,9 +30,13 @@ dev-util/kbuild ~amd64
 
 # VMWare
 app-emulation/vmware-player
+app-emulation/vmware-modules
 
 # Mumbule ! 
 media-sound/mumble
+
+# Discord 
+net-im/discord-bin
 
 # Youtube DL
 net-misc/youtube-dl
@@ -42,6 +49,9 @@ sys-process/nmon
 
 # Glances
 sys-process/glances
+
+# nwipe
+app-crypt/nwipe
 
 # Guake
 x11-terms/guake
@@ -64,6 +74,6 @@ app-cdr/nero
 # ZZZ TEST
 #games-strategy/0ad-data
 #games-strategy/0ad
-media-gfx/gscan2pdf
-app-backup/kfoldersync
-
+#media-gfx/gscan2pdf
+#app-backup/kfoldersync
+#sys-fs/jmtpfs

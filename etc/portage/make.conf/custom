@@ -19,4 +19,4 @@
 MAKEOPTS="-j9"
 
 # Nombre de paquets à installer simultanément.
-EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=1"
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS}"

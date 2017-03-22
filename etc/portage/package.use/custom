@@ -65,4 +65,6 @@ media-sound/mumble speech
 
 # KDE
 kde-apps/kio-extras mtp
-games-emulation/mednafen debugger
+
+#VMWARE
+app-emulation/vmware-modules vmci vsock
