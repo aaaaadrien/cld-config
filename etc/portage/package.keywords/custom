@@ -19,7 +19,7 @@ games-util/steam-launcher
 
 # Support de la carte NVidia Optimus
 x11-misc/primus **
-x11-drivers/nvidia-drivers
+#x11-drivers/nvidia-drivers
 
 # VirtualBox Récent++
 app-emulation/virtualbox-modules ~amd64
