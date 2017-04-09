@@ -23,16 +23,16 @@ app-arch/lbzip2 symlink
 app-arch/pigz symlink
 
 # REMMINA
-net-misc/remmina freerdp
+# net-misc/remmina freerdp
 
 # FIREFOX
 # layers.offmainthreadcomposition.async-animations;false 
 # layers.offmainthreadcomposition.enabled;false
 # https://bugs.gentoo.org/show_bug.cgi?id=558150#c34
-#www-client/firefox -system-cairo 
+# www-client/firefox -system-cairo 
 
 # THUNDERBIRD
-#mail-client/thunderbird -linguas_* linguas_fr
+# mail-client/thunderbird -linguas_* linguas_fr
 
 # SCREEN
 app-misc/screen multiuser
@@ -49,22 +49,12 @@ app-arch/rpm lua python
 #RKHUNTER
 sys-process/lsof rpc
 
-#Mumble
-media-sound/mumble speech
-
 # HUGIN
-#sci-libs/hdf5 -fortran -cxx
-#dev-libs/boost python
-
-#Openshot
-#media-libs/mlt frei0r
-#media-video/openshot python_targets_python3_4 python_single_target_python3_4
+# sci-libs/hdf5 -fortran -cxx
+# dev-libs/boost python
 
 # SMPLAYER
-#media-video/smplayer -qt4 qt5
-
-# KDE
-kde-apps/kio-extras mtp
+# media-video/smplayer -qt4 qt5
 
 #VMWARE
 app-emulation/vmware-modules vmci vsock

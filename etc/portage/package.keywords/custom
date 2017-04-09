@@ -1,18 +1,15 @@
 # Kernel
 <sys-kernel/calculate-sources-4.9.10
 
-# Openshot (éditeur vidéo)
-#media-video/openshot
-
 # Fortinet
 net-misc/networkmanager-fortisslvpn
 net-vpn/openfortivpn
 
 # Clementine dernière version (plus utilisé)
-#media-sound/clementine
+# media-sound/clementine
 
 # Mixxx
-#media-sound/mixxx
+# media-sound/mixxx
 
 # Steam
 games-util/steam-launcher
@@ -31,9 +28,6 @@ dev-util/kbuild ~amd64
 # VMWare
 app-emulation/vmware-player
 app-emulation/vmware-modules
-
-# Mumbule ! 
-media-sound/mumble
 
 # Discord 
 net-im/discord-bin
@@ -59,21 +53,8 @@ x11-terms/guake
 # conky (récent car 1.0.9 se lance plus)
 app-admin/conky
 
-# Redshift (rougir écran le soir)
-kde-misc/plasma-applet-redshift-control
-
-# WINE (Plus utilisé)
-#<app-emulation/wine-1.7.54
-
-# KDE Connect (Android)
-kde-misc/kdeconnect
-
 # Nero
 app-cdr/nero
 
 # ZZZ TEST
-#games-strategy/0ad-data
-#games-strategy/0ad
-#media-gfx/gscan2pdf
-#app-backup/kfoldersync
-#sys-fs/jmtpfs
+=media-libs/mesa-17.0.3

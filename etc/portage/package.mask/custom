@@ -1,7 +1,7 @@
 # KERNEL
 
 # NVidia fuck
->x11-drivers/nvidia-drivers-375.39
+#>x11-drivers/nvidia-drivers-375.39
 
 # Openshot
 =media-video/openshot-2.1.0
