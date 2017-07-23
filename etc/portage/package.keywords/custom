@@ -9,7 +9,7 @@ net-vpn/openfortivpn
 # media-sound/clementine
 
 # Mixxx
-# media-sound/mixxx
+media-sound/mixxx
 
 # Steam
 games-util/steam-launcher
@@ -30,7 +30,10 @@ app-emulation/vmware-player
 app-emulation/vmware-modules
 
 # Discord 
-net-im/discord-bin
+# net-im/discord-bin
+
+# Skype
+net-im/skypeforlinux
 
 # Youtube DL
 net-misc/youtube-dl
@@ -56,5 +59,9 @@ app-admin/conky
 # Nero
 app-cdr/nero
 
+# OBS
+media-video/obs-studio
+
 # ZZZ TEST
 =media-libs/mesa-17.0.3
+#x11-misc/menulibre

@@ -3,5 +3,5 @@
 # NVidia fuck
 #>x11-drivers/nvidia-drivers-375.39
 
-# Openshot
-=media-video/openshot-2.1.0
+# problem :
+#=dev-python/pyparsing-2.1.10

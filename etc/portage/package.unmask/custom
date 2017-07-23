@@ -1,2 +1,7 @@
 # Nero
 app-cdr/nero
+
+#VMWare
+app-emulation/vmware-player
+app-emulation/vmware-modules
+app-emulation/vmware-tools

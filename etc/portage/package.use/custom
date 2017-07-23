@@ -2,7 +2,7 @@
 x11-libs/vte python
 
 # OPTIMUS
-x11-base/xorg-drivers video_cards_nvidia
+#x11-base/xorg-drivers video_cards_nvidia
 x11-misc/virtualgl abi_x86_32
 x11-misc/primus abi_x86_32
 x11-drivers/nvidia-drivers compat 
@@ -38,9 +38,9 @@ app-arch/pigz symlink
 app-misc/screen multiuser
 
 #RPM
-dev-lang/python sqlite
-dev-libs/libxml2 python
-app-arch/rpm lua python
+#dev-lang/python sqlite
+#dev-libs/libxml2 python
+#app-arch/rpm lua python
 
 #LANGUES
 #app-text/hunspell -linguas_* linguas_fr
@@ -58,3 +58,6 @@ sys-process/lsof rpc
 
 #VMWARE
 app-emulation/vmware-modules vmci vsock
+
+# GCC
+sys-devel/gcc gcj
