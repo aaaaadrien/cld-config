@@ -26,6 +26,7 @@ app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
 app-emulation/virtualbox-modules
+app-emulation/wine
 app-forensics/rkhunter
 app-misc/banner
 app-misc/cmatrix
@@ -39,7 +40,7 @@ app-office/libreoffice
 app-office/libreoffice-l10n
 app-office/wps-office
 app-office/wps-office-extension-french-dictionary
-app-office/wps-office-i18n-fr
+app-office/wps-office-i18n
 app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
@@ -75,7 +76,6 @@ games-util/steam-launcher
 gnome-base/dconf-editor
 gnome-extra/nm-applet
 kde-apps/kdenlive
-kde-apps/krdc
 mail-client/thunderbird
 mate-base/caja
 mate-base/libmatekbd
@@ -115,6 +115,7 @@ media-libs/libmediainfo
 media-plugins/gst-plugins-lame
 media-sound/abcde
 media-sound/audacity
+media-sound/bpmdetect
 media-sound/clementine
 media-sound/easytag
 media-sound/lame
@@ -124,6 +125,7 @@ media-sound/mumble
 media-sound/pavucontrol
 media-sound/spotify
 media-video/alexandra
+media-video/ffmpeg
 media-video/ffmpegthumbnailer
 media-video/ffmulticonverter
 media-video/guvcview
@@ -149,6 +151,7 @@ net-misc/dhcp
 net-misc/netkit-telnetd
 net-misc/networkmanager-fortisslvpn
 net-misc/ntp
+net-misc/remmina
 net-misc/whois
 net-misc/youtube-dl
 net-p2p/transmission
@@ -205,9 +208,10 @@ virtual/logger
 www-client/chromium
 www-client/opera
 www-client/vivaldi
-www-plugins/adobe-flash
+www-client/vivaldi-snapshot
 www-plugins/chrome-binary-plugins
 www-plugins/vivaldi-ffmpeg-codecs
+www-plugins/vivaldi-snapshot-ffmpeg-codecs
 www-servers/apache
 x11-drivers/nvidia-drivers
 x11-misc/bumblebee
@@ -218,10 +222,12 @@ x11-misc/redshift
 x11-misc/sux
 x11-misc/x11vnc
 x11-misc/xdotool
+x11-terms/cool-retro-term
 x11-terms/guake
 x11-themes/calculate-icon-theme
 x11-themes/elementary-icon-theme
 x11-themes/ia_ora-theme
 x11-themes/mate-themes
 x11-themes/mint-x-icons
+x11-themes/zuki-themes
 x11-wm/fluxbox

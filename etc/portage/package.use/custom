@@ -13,7 +13,7 @@ sys-kernel/calculate-sources -minimal
 
 # LAMP
 app-eselect/eselect-php apache2
-dev-lang/php  apache2 mysql cgi pam ssl xml mysqli pdo sqlite xmlreader xmlwriter
+dev-lang/php  apache2 mysql cgi pam ssl xml mysqli pdo sqlite xmlreader xmlwriter -spell
 
 # PERL
 dev-lang/perl ithreads
@@ -24,12 +24,6 @@ app-arch/pigz symlink
 
 # REMMINA
 # net-misc/remmina freerdp
-
-# FIREFOX
-# layers.offmainthreadcomposition.async-animations;false 
-# layers.offmainthreadcomposition.enabled;false
-# https://bugs.gentoo.org/show_bug.cgi?id=558150#c34
-# www-client/firefox -system-cairo 
 
 # THUNDERBIRD
 # mail-client/thunderbird -linguas_* linguas_fr
@@ -49,15 +43,13 @@ app-misc/screen multiuser
 #RKHUNTER
 sys-process/lsof rpc
 
-# HUGIN
-# sci-libs/hdf5 -fortran -cxx
-# dev-libs/boost python
-
-# SMPLAYER
-# media-video/smplayer -qt4 qt5
-
 #VMWARE
 app-emulation/vmware-modules vmci vsock
 
 # GCC
 sys-devel/gcc gcj
+
+# NVENC pour ffmpeg
+media-video/ffmpeg nvenc
+
+dev-qt/qtdeclarative localstorage
