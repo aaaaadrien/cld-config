@@ -53,3 +53,4 @@ sys-devel/gcc gcj
 media-video/ffmpeg nvenc
 
 dev-qt/qtdeclarative localstorage
+x11-themes/arc-theme mate

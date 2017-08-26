@@ -33,7 +33,6 @@ app-misc/cmatrix
 app-misc/figlet
 app-misc/mc
 app-misc/screen
-app-misc/screenfetch
 app-misc/tmux
 app-misc/xorg-meta
 app-office/libreoffice
@@ -72,6 +71,7 @@ dev-vcs/git
 games-arcade/blobby
 games-emulation/dosbox
 games-emulation/vbam
+games-puzzle/bastet
 games-util/steam-launcher
 gnome-base/dconf-editor
 gnome-extra/nm-applet
@@ -155,6 +155,7 @@ net-misc/remmina
 net-misc/whois
 net-misc/youtube-dl
 net-p2p/transmission
+net-vpn/openfortivpn
 net-wireless/blueman
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant
@@ -198,7 +199,6 @@ sys-power/acpi
 sys-power/bbswitch
 sys-power/cpupower
 sys-power/powertop
-sys-process/atop
 sys-process/glances
 sys-process/htop
 sys-process/nmon
@@ -224,10 +224,14 @@ x11-misc/x11vnc
 x11-misc/xdotool
 x11-terms/cool-retro-term
 x11-terms/guake
+x11-themes/arc-icon-theme
+x11-themes/arc-theme
 x11-themes/calculate-icon-theme
 x11-themes/elementary-icon-theme
+x11-themes/faba-icon-theme
 x11-themes/ia_ora-theme
 x11-themes/mate-themes
 x11-themes/mint-x-icons
+x11-themes/moka-icon-theme
 x11-themes/zuki-themes
 x11-wm/fluxbox

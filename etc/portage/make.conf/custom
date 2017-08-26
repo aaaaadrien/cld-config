@@ -9,8 +9,8 @@
 #--------------------------------------
 # Paramètres supplémentaires passés au compilateur. L'option '-march=native'
 # permet d'optimiser les applications en créant un code adapté à votre matériel.
-#CFLAGS="-O2 -march=native -pipe"
-#CXXFLAGS="${CFLAGS}"
+CFLAGS="-O2 -march=native -pipe -ldl"
+CXXFLAGS="${CFLAGS}"
 
 #------------------------------------------------------
 # Optimisation en vitesse de compilation
