@@ -23,7 +23,7 @@ app-arch/lbzip2 symlink
 app-arch/pigz symlink
 
 # REMMINA
-# net-misc/remmina freerdp
+net-misc/remmina rdp vnc
 
 # THUNDERBIRD
 # mail-client/thunderbird -linguas_* linguas_fr
@@ -47,10 +47,14 @@ sys-process/lsof rpc
 app-emulation/vmware-modules vmci vsock
 
 # GCC
-sys-devel/gcc gcj
+#sys-devel/gcc gcj
 
-# NVENC pour ffmpeg
-media-video/ffmpeg nvenc
+# NVENC et CHROMIUM pour ffmpeg
+# echo "media-video/ffmpeg -chromium" >> /etc/portage/profile/package.use.mask
+media-video/ffmpeg nvenc chromium
+
+#CLEMENTINE QT5
+media-libs/libmygpo-qt qt5
 
 dev-qt/qtdeclarative localstorage
 x11-themes/arc-theme mate

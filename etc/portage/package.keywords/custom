@@ -1,12 +1,12 @@
 # Kernel
-<sys-kernel/calculate-sources-4.9.10
+=sys-kernel/calculate-sources-4.14.7
 
 # Fortinet
 net-misc/networkmanager-fortisslvpn
 net-vpn/openfortivpn
 
-# Clementine dernière version (plus utilisé)
-# media-sound/clementine
+# Clementine dernière version
+#=media-sound/clementine-9999 **
 
 # Mixxx
 media-sound/mixxx
@@ -54,7 +54,7 @@ app-crypt/nwipe
 x11-terms/guake
 
 # conky (récent car 1.0.9 se lance plus)
-app-admin/conky
+<app-admin/conky-1.10.7
 
 # Nero
 app-cdr/nero
@@ -62,6 +62,14 @@ app-cdr/nero
 # OBS
 media-video/obs-studio
 
+# KDENLIVE
+=kde-apps/kdenlive-18.04.0-r1 ~amd64
+
+
 # ZZZ TEST
 =media-libs/mesa-17.0.3
-#x11-misc/menulibre
+#=app-portage/pamageli-9999 **
+net-im/viber
+app-mobilephone/heimdall
+net-misc/teamviewer
+mate-extra/brisk-menu
