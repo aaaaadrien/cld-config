@@ -17,7 +17,7 @@ app-cdr/iat
 app-cdr/nero
 app-crypt/johntheripper
 app-crypt/nwipe
-app-crypt/sbsigntool
+app-crypt/sbsigntools
 app-crypt/seahorse
 app-crypt/shim-signed
 app-editors/nano
@@ -27,7 +27,7 @@ app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
 app-emulation/virtualbox-modules
 app-emulation/wine-vanilla
-app-emulation/wine-vanilla:2.0.4
+app-emulation/winetricks
 app-forensics/rkhunter
 app-misc/banner
 app-misc/cmatrix
@@ -61,7 +61,6 @@ dev-perl/Tk
 dev-perl/XML-Parser
 dev-python/PyQt5
 dev-python/pygobject:3
-dev-python/pywebkitgtk
 dev-qt/qt-creator
 dev-qt/qtdeclarative
 dev-qt/qtmultimedia
@@ -76,7 +75,6 @@ games-emulation/dosbox
 games-util/steam-launcher
 gnome-base/dconf-editor
 gnome-extra/nm-applet
-kde-apps/kdenlive
 kde-frameworks/breeze-icons
 kde-plasma/breeze
 kde-plasma/breeze-gtk
@@ -122,6 +120,7 @@ media-libs/libmediainfo
 media-plugins/gst-plugins-lame
 media-sound/abcde
 media-sound/audacity
+media-sound/audio-recorder
 media-sound/bpmdetect
 media-sound/clementine
 media-sound/easytag
@@ -141,7 +140,6 @@ media-video/mediainfo
 media-video/molotov
 media-video/mplayer
 media-video/obs-studio
-media-video/openshot
 media-video/peek
 media-video/simplescreenrecorder
 media-video/smplayer
@@ -188,7 +186,6 @@ sys-apps/pv
 sys-apps/rosa-imagewriter
 sys-apps/smartmontools
 sys-apps/usbutils
-sys-apps/v86d
 sys-auth/pam_update
 sys-block/gparted
 sys-boot/efibootmgr
@@ -207,6 +204,7 @@ sys-fs/xfsprogs
 sys-kernel/calculate-sources
 sys-kernel/calculate-sources:4.4.44
 sys-kernel/dracut
+sys-libs/ncurses
 sys-power/acpi
 sys-power/bbswitch
 sys-power/cpupower
@@ -218,6 +216,7 @@ sys-process/nmon
 virtual/cron
 virtual/logger
 www-client/chromium
+www-client/firefox
 www-client/midori
 www-client/opera
 www-client/vivaldi-snapshot
@@ -227,9 +226,12 @@ www-plugins/chrome-binary-plugins
 www-servers/apache
 x11-drivers/nvidia-drivers
 x11-misc/bumblebee
+x11-misc/compton
 x11-misc/imake
 x11-misc/lightdm-gtk-greeter
+x11-misc/numlockx
 x11-misc/primus
+x11-misc/qt5ct
 x11-misc/redshift
 x11-misc/sux
 x11-misc/x11vnc
@@ -242,7 +244,10 @@ x11-themes/adwaita-qt
 x11-themes/arc-icon-theme
 x11-themes/arc-theme
 x11-themes/calculate-icon-theme
+x11-themes/commonbox-styles
+x11-themes/commonbox-styles-extra
 x11-themes/elementary-icon-theme
+x11-themes/fluxbox-styles-fluxmod
 x11-themes/gtk-theme-switch
 x11-themes/ia_ora-theme
 x11-themes/mate-themes

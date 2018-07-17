@@ -1,5 +1,5 @@
 # Kernel
-=sys-kernel/calculate-sources-4.14.7
+<sys-kernel/calculate-sources-4.18.0
 
 # Fortinet
 net-misc/networkmanager-fortisslvpn
@@ -38,6 +38,9 @@ net-im/skypeforlinux
 # Youtube DL
 net-misc/youtube-dl
 
+# KSH
+app-shells/ksh
+
 # Opera
 www-client/opera
 
@@ -69,7 +72,6 @@ media-video/obs-studio
 # ZZZ TEST
 =media-libs/mesa-17.0.3
 #=app-portage/pamageli-9999 **
-net-im/viber
 app-mobilephone/heimdall
-net-misc/teamviewer
 mate-extra/brisk-menu
+media-video/pitivi

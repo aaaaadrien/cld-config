@@ -2,7 +2,7 @@
 x11-libs/vte python
 
 # OPTIMUS
-#x11-base/xorg-drivers video_cards_nvidia
+x11-base/xorg-drivers video_cards_nvidia
 x11-misc/virtualgl abi_x86_32
 x11-misc/primus abi_x86_32
 x11-drivers/nvidia-drivers compat 
@@ -31,6 +31,9 @@ net-misc/remmina rdp vnc
 # SCREEN
 app-misc/screen multiuser
 
+# SUDO
+app-admin/sudo offensive
+
 #RPM
 #dev-lang/python sqlite
 #dev-libs/libxml2 python
@@ -56,5 +59,8 @@ media-video/ffmpeg nvenc chromium
 #CLEMENTINE QT5
 media-libs/libmygpo-qt qt5
 
+# cool-retro-term
 dev-qt/qtdeclarative localstorage
+
+# THEME ARC POUR MATE
 x11-themes/arc-theme mate
