@@ -33,6 +33,7 @@ app-misc/banner
 app-misc/cmatrix
 app-misc/figlet
 app-misc/mc
+app-misc/neofetch
 app-misc/screen
 app-misc/tmux
 app-misc/xorg-meta
@@ -50,6 +51,7 @@ app-shells/gentoo-zsh-completions
 app-shells/ksh
 app-shells/zsh
 app-shells/zsh-completions
+app-text/pdfshuffler
 app-text/wgetpaste
 app-vim/colorschemes
 dev-db/mariadb
@@ -61,10 +63,10 @@ dev-perl/Tk
 dev-perl/XML-Parser
 dev-python/PyQt5
 dev-python/pygobject:3
-dev-qt/qt-creator
 dev-qt/qtdeclarative
 dev-qt/qtmultimedia
 dev-qt/qtwebsockets
+dev-util/android-tools
 dev-util/dialog
 dev-util/glade
 dev-util/strace
@@ -74,10 +76,10 @@ games-arcade/supertux
 games-emulation/dosbox
 games-util/steam-launcher
 gnome-base/dconf-editor
+gnome-extra/nemo
 gnome-extra/nm-applet
+kde-apps/kdenlive
 kde-frameworks/breeze-icons
-kde-plasma/breeze
-kde-plasma/breeze-gtk
 lxde-base/lxappearance
 mail-client/thunderbird
 mate-base/caja
@@ -106,6 +108,7 @@ mate-extra/mate-system-monitor
 mate-extra/mate-tweak
 mate-extra/mate-user-guide
 mate-extra/mate-utils
+mate-extra/reload-mate
 media-fonts/terminus-font
 media-gfx/calculate-wallpapers
 media-gfx/dm-themes-calculate
@@ -123,6 +126,7 @@ media-sound/audacity
 media-sound/audio-recorder
 media-sound/bpmdetect
 media-sound/clementine
+media-sound/darkice
 media-sound/easytag
 media-sound/lame
 media-sound/mixxx
@@ -157,6 +161,7 @@ net-im/skypeforlinux
 net-im/telegram-desktop-bin
 net-misc/anydesk
 net-misc/dhcp
+net-misc/icecast
 net-misc/netkit-telnetd
 net-misc/networkmanager-fortisslvpn
 net-misc/ntp
@@ -164,6 +169,7 @@ net-misc/remmina
 net-misc/whois
 net-misc/youtube-dl
 net-p2p/transmission
+net-print/foomatic-db-engine
 net-vpn/openfortivpn
 net-wireless/blueman
 net-wireless/wireless-tools
@@ -202,7 +208,6 @@ sys-fs/reiserfsprogs
 sys-fs/simple-mtpfs
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
-sys-kernel/calculate-sources:4.4.44
 sys-kernel/dracut
 sys-libs/ncurses
 sys-power/acpi
@@ -219,10 +224,11 @@ www-client/chromium
 www-client/firefox
 www-client/midori
 www-client/opera
+www-client/vivaldi
 www-client/vivaldi-snapshot
 www-misc/get-ffmpeg-vivaldi
-www-plugins/adobe-flash
 www-plugins/chrome-binary-plugins
+www-plugins/firefox-ublock
 www-servers/apache
 x11-drivers/nvidia-drivers
 x11-misc/bumblebee
@@ -240,6 +246,7 @@ x11-misc/xzoom
 x11-terms/cool-retro-term
 x11-terms/guake
 x11-terms/xterm
+x11-themes/QGnomePlatform
 x11-themes/adwaita-qt
 x11-themes/arc-icon-theme
 x11-themes/arc-theme
@@ -253,4 +260,5 @@ x11-themes/ia_ora-theme
 x11-themes/mate-themes
 x11-themes/mint-x-icons
 x11-themes/papirus-icon-theme
+x11-themes/surfn-icon-theme
 x11-wm/fluxbox

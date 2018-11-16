@@ -1,5 +1,9 @@
 # Kernel
-<sys-kernel/calculate-sources-4.18.0
+<sys-kernel/calculate-sources-4.19.5
+
+# Support de la carte NVidia Optimus
+x11-misc/primus **
+<x11-drivers/nvidia-drivers-411.00
 
 # Fortinet
 net-misc/networkmanager-fortisslvpn
@@ -13,10 +17,6 @@ media-sound/mixxx
 
 # Steam
 games-util/steam-launcher
-
-# Support de la carte NVidia Optimus
-x11-misc/primus **
-#x11-drivers/nvidia-drivers
 
 # VirtualBox Récent++
 app-emulation/virtualbox-modules ~amd64
@@ -66,12 +66,16 @@ app-cdr/nero
 media-video/obs-studio
 
 # KDENLIVE
-=kde-apps/kdenlive-18.04.0-r1 ~amd64
+kde-apps/kdenlive
+# FREI0R => 1.5.0 = memory leak
+# media-plugins/frei0r-plugins
+# < mlt 6.10.0 = memory leak + pb son
+# media-libs/mlt
+
 
 
 # ZZZ TEST
 =media-libs/mesa-17.0.3
 #=app-portage/pamageli-9999 **
 app-mobilephone/heimdall
-mate-extra/brisk-menu
-media-video/pitivi
+

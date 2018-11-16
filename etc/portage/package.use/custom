@@ -52,9 +52,8 @@ app-emulation/vmware-modules vmci vsock
 # GCC
 #sys-devel/gcc gcj
 
-# NVENC et CHROMIUM pour ffmpeg
-# echo "media-video/ffmpeg -chromium" >> /etc/portage/profile/package.use.mask
-media-video/ffmpeg nvenc chromium
+# NVENC (Encodage NVidia) CHROMIUM (Chromium) et xcb (peek)
+media-video/ffmpeg nvenc chromium xcb
 
 #CLEMENTINE QT5
 media-libs/libmygpo-qt qt5
@@ -64,3 +63,6 @@ dev-qt/qtdeclarative localstorage
 
 # THEME ARC POUR MATE
 x11-themes/arc-theme mate
+
+# OBS + nvenc
+media-video/obs-studio nvenc
