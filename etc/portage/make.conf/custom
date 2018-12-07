@@ -9,15 +9,14 @@
 #--------------------------------------
 # Paramètres supplémentaires passés au compilateur. L'option '-march=native'
 # permet d'optimiser les applications en créant un code adapté à votre matériel.
-#CFLAGS="-O2 -march=native -pipe -ldl"
-CFLAGS="-O2 -march=native -pipe"
-CXXFLAGS="${CFLAGS}"
+#CFLAGS="-O2 -march=native -pipe"
+#CXXFLAGS="${CFLAGS}"
 
 #------------------------------------------------------
 # Optimisation en vitesse de compilation
 #------------------------------------------------------
 # Nombre de processus lancés en parallèle pour installer un paquet.
-MAKEOPTS="-j9"
+MAKEOPTS="-j13"
 
 # Nombre de paquets à installer simultanément.
-EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS}"
+#EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=1"

@@ -41,6 +41,7 @@ app-mobilephone/heimdall
 app-office/libreoffice
 app-office/libreoffice-l10n
 app-portage/eix
+app-portage/elt-patches
 app-portage/gentoolkit
 app-portage/layman
 app-portage/pamageli
@@ -94,7 +95,6 @@ mate-base/mate-menus
 mate-base/mate-panel
 mate-base/mate-session-manager
 mate-base/mate-settings-daemon
-mate-extra/brisk-menu
 mate-extra/caja-extensions
 mate-extra/caja-su
 mate-extra/mate-calc
@@ -121,9 +121,9 @@ media-gfx/splash-themes-calculate
 media-libs/libcaca
 media-libs/libmediainfo
 media-plugins/gst-plugins-lame
+media-plugins/gst-plugins-x265
 media-sound/abcde
 media-sound/audacity
-media-sound/audio-recorder
 media-sound/bpmdetect
 media-sound/clementine
 media-sound/darkice
@@ -132,10 +132,10 @@ media-sound/lame
 media-sound/mixxx
 media-sound/mp3gain
 media-sound/pavucontrol
+media-sound/qastools
 media-sound/soundconverter
 media-sound/sox
 media-sound/spotify
-media-video/alexandra
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
 media-video/ffmulticonverter
@@ -189,7 +189,6 @@ sys-apps/memtest86+
 sys-apps/openrc
 sys-apps/pciutils
 sys-apps/pv
-sys-apps/rosa-imagewriter
 sys-apps/smartmontools
 sys-apps/usbutils
 sys-auth/pam_update
@@ -214,6 +213,7 @@ sys-power/acpi
 sys-power/bbswitch
 sys-power/cpupower
 sys-power/powertop
+sys-process/at
 sys-process/glances
 sys-process/htop
 sys-process/iotop
@@ -230,17 +230,13 @@ www-misc/get-ffmpeg-vivaldi
 www-plugins/chrome-binary-plugins
 www-plugins/firefox-ublock
 www-servers/apache
-x11-drivers/nvidia-drivers
-x11-misc/bumblebee
 x11-misc/compton
 x11-misc/imake
 x11-misc/lightdm-gtk-greeter
 x11-misc/numlockx
-x11-misc/primus
 x11-misc/qt5ct
 x11-misc/redshift
 x11-misc/sux
-x11-misc/x11vnc
 x11-misc/xdotool
 x11-misc/xzoom
 x11-terms/cool-retro-term
@@ -256,7 +252,6 @@ x11-themes/commonbox-styles-extra
 x11-themes/elementary-icon-theme
 x11-themes/fluxbox-styles-fluxmod
 x11-themes/gtk-theme-switch
-x11-themes/ia_ora-theme
 x11-themes/mate-themes
 x11-themes/mint-x-icons
 x11-themes/papirus-icon-theme

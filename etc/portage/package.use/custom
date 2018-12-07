@@ -2,11 +2,11 @@
 x11-libs/vte python
 
 # OPTIMUS
-x11-base/xorg-drivers video_cards_nvidia
-x11-misc/virtualgl abi_x86_32
-x11-misc/primus abi_x86_32
-x11-drivers/nvidia-drivers compat 
-dev-libs/jansson abi_x86_32
+#x11-base/xorg-drivers video_cards_nvidia
+#x11-misc/virtualgl abi_x86_32
+#x11-misc/primus abi_x86_32
+#x11-drivers/nvidia-drivers compat 
+#dev-libs/jansson abi_x86_32
 
 # KERNEL
 sys-kernel/calculate-sources -minimal
@@ -53,7 +53,8 @@ app-emulation/vmware-modules vmci vsock
 #sys-devel/gcc gcj
 
 # NVENC (Encodage NVidia) CHROMIUM (Chromium) et xcb (peek)
-media-video/ffmpeg nvenc chromium xcb
+#media-video/ffmpeg nvenc chromium xcb
+media-video/ffmpeg chromium xcb
 
 #CLEMENTINE QT5
 media-libs/libmygpo-qt qt5
@@ -65,4 +66,7 @@ dev-qt/qtdeclarative localstorage
 x11-themes/arc-theme mate
 
 # OBS + nvenc
-media-video/obs-studio nvenc
+#media-video/obs-studio nvenc
+
+# QtCreator
+dev-qt/qt-creator designer

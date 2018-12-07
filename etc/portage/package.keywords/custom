@@ -1,9 +1,9 @@
 # Kernel
-<sys-kernel/calculate-sources-4.19.5
+<sys-kernel/calculate-sources-4.19.10
 
 # Support de la carte NVidia Optimus
-x11-misc/primus **
-<x11-drivers/nvidia-drivers-411.00
+#x11-misc/primus **
+#<x11-drivers/nvidia-drivers-411.00
 
 # Fortinet
 net-misc/networkmanager-fortisslvpn
