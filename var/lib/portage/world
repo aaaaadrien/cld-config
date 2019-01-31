@@ -109,9 +109,11 @@ mate-extra/mate-tweak
 mate-extra/mate-user-guide
 mate-extra/mate-utils
 mate-extra/reload-mate
+media-fonts/msoffice-fonts
 media-fonts/terminus-font
 media-gfx/calculate-wallpapers
 media-gfx/dm-themes-calculate
+media-gfx/flameshot
 media-gfx/gfxboot-themes-calculate
 media-gfx/gimp
 media-gfx/grub-splashes-calculate
@@ -136,6 +138,7 @@ media-sound/qastools
 media-sound/soundconverter
 media-sound/sox
 media-sound/spotify
+media-video/alexandra
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
 media-video/ffmulticonverter
@@ -156,7 +159,6 @@ net-dns/bind-tools
 net-fs/nfs-utils
 net-fs/sshfs
 net-ftp/filezilla
-net-im/discord-bin
 net-im/skypeforlinux
 net-im/telegram-desktop-bin
 net-misc/anydesk
@@ -179,6 +181,7 @@ sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/dcfldd
 sys-apps/dmidecode
+sys-apps/etcher
 sys-apps/ethtool
 sys-apps/ifplugd
 sys-apps/inxi
@@ -189,6 +192,7 @@ sys-apps/memtest86+
 sys-apps/openrc
 sys-apps/pciutils
 sys-apps/pv
+sys-apps/rosa-imagewriter
 sys-apps/smartmontools
 sys-apps/usbutils
 sys-auth/pam_update
@@ -246,6 +250,7 @@ x11-themes/QGnomePlatform
 x11-themes/adwaita-qt
 x11-themes/arc-icon-theme
 x11-themes/arc-theme
+x11-themes/arc-theme::adrien-overlay
 x11-themes/calculate-icon-theme
 x11-themes/commonbox-styles
 x11-themes/commonbox-styles-extra
