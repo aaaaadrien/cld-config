@@ -6,7 +6,8 @@
 #<x11-drivers/nvidia-drivers-411.00
 
 # Fortinet
-net-misc/networkmanager-fortisslvpn
+# move net-misc/networkmanager-fortisslvpn net-vpn/networkmanager-fortisslvpn
+net-vpn/networkmanager-fortisslvpn
 net-vpn/openfortivpn
 
 # Clementine dernière version
@@ -25,12 +26,9 @@ app-emulation/virtualbox ~amd64
 app-emulation/virtualbox-extpack-oracle ~amd64
 dev-util/kbuild ~amd64
 
-# VMWare
-app-emulation/vmware-player
-app-emulation/vmware-modules
-
-# Discord 
-# net-im/discord-bin
+# Wine
+#app-emulation/wine-vanilla
+#app-emulation/wine-mono
 
 # Skype
 net-im/skypeforlinux
@@ -71,11 +69,14 @@ kde-apps/kdenlive
 # media-plugins/frei0r-plugins
 # < mlt 6.10.0 = memory leak + pb son
 # media-libs/mlt
+=dev-cpp/rttr-0.9.6 ~amd64
+=media-libs/mlt-6.14.0 ~amd64
 
 
+# neofetch
+app-misc/neofetch
 
 # ZZZ TEST
-=media-libs/mesa-17.0.3
+=media-libs/mesa-18.3.0
 #=app-portage/pamageli-9999 **
-app-mobilephone/heimdall
-
+net-misc/remmina

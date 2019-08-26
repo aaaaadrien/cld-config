@@ -11,6 +11,9 @@ x11-libs/vte python
 # KERNEL
 sys-kernel/calculate-sources -minimal
 
+# Firefox
+#www-client/firefox pulseaudio -bindist
+
 # LAMP
 app-eselect/eselect-php apache2
 dev-lang/php  apache2 mysql cgi pam ssl xml mysqli pdo sqlite xmlreader xmlwriter -spell
@@ -21,6 +24,9 @@ dev-lang/perl ithreads
 # COMPRESSION MULTITHREAD
 app-arch/lbzip2 symlink
 app-arch/pigz symlink
+
+# rsyslog
+app-admin/rsyslog openssl
 
 # REMMINA
 net-misc/remmina rdp vnc
@@ -70,3 +76,16 @@ x11-themes/arc-theme mate
 
 # QtCreator
 dev-qt/qt-creator designer
+
+# Mixxx
+media-sound/mixxx shout
+
+# GStreamer 
+# pb d'écran rose avec MP4 et Totem à cause de vaapi
+media-plugins/gst-plugins-meta -vaapi
+
+# GNOME TEST
+gnome-base/gnome-shell -bluetooth
+gnome-base/gnome-core-apps -bluetooth
+
+
