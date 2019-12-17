@@ -63,6 +63,9 @@ app-cdr/nero
 # OBS
 media-video/obs-studio
 
+#Teamspeak
+media-sound/teamspeak-client
+
 # KDENLIVE
 kde-apps/kdenlive
 # FREI0R => 1.5.0 = memory leak
@@ -76,7 +79,12 @@ kde-apps/kdenlive
 # neofetch
 app-misc/neofetch
 
+# Spotify
+media-sound/spotify
+
+# Remmina
+net-misc/remmina
+
 # ZZZ TEST
 =media-libs/mesa-18.3.0
 #=app-portage/pamageli-9999 **
-net-misc/remmina

@@ -1,5 +1,6 @@
 app-admin/ccze
 app-admin/conky
+app-admin/keepass
 app-admin/logrotate
 app-admin/rsyslog
 app-admin/sudo
@@ -14,6 +15,7 @@ app-arch/unrar
 app-arch/unzip
 app-benchmarks/stress
 app-benchmarks/sysbench
+app-cdr/brasero
 app-cdr/iat
 app-cdr/nero
 app-crypt/johntheripper
@@ -155,10 +157,10 @@ media-sound/spotify
 media-sound/teamspeak-client
 media-sound/vorbisgain
 media-video/alexandra
+media-video/celluloid
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
 media-video/ffmulticonverter
-media-video/gnome-mpv
 media-video/guvcview
 media-video/mediainfo
 media-video/molotov
@@ -170,6 +172,7 @@ media-video/simplescreenrecorder
 media-video/smtube
 net-analyzer/iftop
 net-analyzer/iptraf-ng
+net-analyzer/net-snmp
 net-analyzer/nmap
 net-analyzer/speedtest-cli
 net-analyzer/traceroute
@@ -188,6 +191,7 @@ net-misc/icecast
 net-misc/netkit-telnetd
 net-misc/ntp
 net-misc/remmina
+net-misc/tigervnc
 net-misc/whois
 net-misc/youtube-dl
 net-p2p/transmission
@@ -206,7 +210,7 @@ sys-apps/ethtool
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
-sys-apps/lm_sensors
+sys-apps/lm-sensors
 sys-apps/lsb-release
 sys-apps/memtest86+
 sys-apps/openrc
@@ -221,6 +225,7 @@ sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
 sys-boot/os-prober
+sys-boot/woeusb
 sys-firmware/b43-firmware
 sys-fs/btrfs-progs
 sys-fs/dosfstools
@@ -232,7 +237,6 @@ sys-fs/reiserfsprogs
 sys-fs/simple-mtpfs
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
-sys-kernel/calculate-sources:4.19.52
 sys-kernel/dracut
 sys-libs/ncurses
 sys-power/acpi
@@ -251,8 +255,6 @@ www-client/chromium
 www-client/epiphany
 www-client/firefox
 www-client/links
-www-client/opera
-www-client/vivaldi
 www-client/vivaldi-snapshot
 www-misc/get-ffmpeg-vivaldi
 www-plugins/chrome-binary-plugins
@@ -260,8 +262,8 @@ www-servers/apache
 x11-misc/compton
 x11-misc/imake
 x11-misc/lightdm-gtk-greeter
+x11-misc/menulibre
 x11-misc/numlockx
-x11-misc/qt5ct
 x11-misc/redshift
 x11-misc/sux
 x11-misc/xdotool
@@ -283,3 +285,4 @@ x11-themes/mint-x-icons
 x11-themes/papirus-icon-theme
 x11-themes/surfn-icon-theme
 x11-wm/fluxbox
+x11-wm/mutter
