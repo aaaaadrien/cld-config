@@ -1,5 +1,5 @@
 # Kernel
-<sys-kernel/calculate-sources-4.19.10
+#<sys-kernel/calculate-sources-5.4.15
 
 # Support de la carte NVidia Optimus
 #x11-misc/primus **
@@ -67,7 +67,7 @@ media-video/obs-studio
 media-sound/teamspeak-client
 
 # KDENLIVE
-kde-apps/kdenlive
+<kde-apps/kdenlive-19.10
 # FREI0R => 1.5.0 = memory leak
 # media-plugins/frei0r-plugins
 # < mlt 6.10.0 = memory leak + pb son
@@ -84,6 +84,7 @@ media-sound/spotify
 
 # Remmina
 net-misc/remmina
+net-misc/freerdp
 
 # ZZZ TEST
 =media-libs/mesa-18.3.0

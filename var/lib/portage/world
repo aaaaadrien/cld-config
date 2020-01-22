@@ -47,7 +47,6 @@ app-office/libreoffice-l10n
 app-portage/eix
 app-portage/elt-patches
 app-portage/gentoolkit
-app-portage/layman
 app-portage/pamageli
 app-portage/repoman
 app-shells/bash-completion
@@ -143,7 +142,6 @@ media-sound/bpmdetect
 media-sound/clementine
 media-sound/darkice
 media-sound/easytag
-media-sound/gnome-music
 media-sound/lame
 media-sound/mixxx
 media-sound/mp3gain
@@ -157,7 +155,6 @@ media-sound/spotify
 media-sound/teamspeak-client
 media-sound/vorbisgain
 media-video/alexandra
-media-video/celluloid
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
 media-video/ffmulticonverter
@@ -165,10 +162,12 @@ media-video/guvcview
 media-video/mediainfo
 media-video/molotov
 media-video/mplayer
+media-video/mpv
 media-video/obs-studio
 media-video/peek
 media-video/pitivi
 media-video/simplescreenrecorder
+media-video/smplayer
 media-video/smtube
 net-analyzer/iftop
 net-analyzer/iptraf-ng
@@ -244,6 +243,7 @@ sys-power/cpupower
 sys-power/powertop
 sys-process/at
 sys-process/atop
+sys-process/cpu-x
 sys-process/glances
 sys-process/htop
 sys-process/iotop
@@ -255,6 +255,7 @@ www-client/chromium
 www-client/epiphany
 www-client/firefox
 www-client/links
+www-client/opera
 www-client/vivaldi-snapshot
 www-misc/get-ffmpeg-vivaldi
 www-plugins/chrome-binary-plugins
