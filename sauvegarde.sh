@@ -12,7 +12,7 @@ heure=$(date +"%H:%M:%S")
 
 # Début du script
 
-for fic in "use" "keywords" "mask" "unmask"
+for fic in "use" "keywords" "mask" "unmask" "env"
 do
 	chemin="etc/portage/package.$fic/"
 	if [ -f "/$chemin/custom" ]

@@ -1,5 +1,6 @@
 # Kernel
 #<sys-kernel/calculate-sources-5.4.15
+#<sys-kernel/gentoo-sources-5.4.15
 
 # Support de la carte NVidia Optimus
 #x11-misc/primus **
@@ -25,6 +26,12 @@ app-emulation/virtualbox-additions ~amd64
 app-emulation/virtualbox ~amd64
 app-emulation/virtualbox-extpack-oracle ~amd64
 dev-util/kbuild ~amd64
+
+# Vivaldi
+www-client/vivaldi-snapshot
+
+# Telegram 
+net-im/telegram-desktop-bin
 
 # Wine
 #app-emulation/wine-vanilla
