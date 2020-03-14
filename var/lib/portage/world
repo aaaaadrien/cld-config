@@ -82,6 +82,7 @@ gnome-base/nautilus
 gnome-extra/gnome-calendar
 gnome-extra/gnome-shell-extension-appindicator
 gnome-extra/gnome-shell-extension-dash-to-dock
+gnome-extra/gnome-shell-extension-gsconnect
 gnome-extra/gnome-software
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
@@ -179,7 +180,6 @@ net-dns/bind-tools
 net-fs/nfs-utils
 net-fs/sshfs
 net-ftp/filezilla
-net-im/messengerfordesktop-bin
 net-im/riot-web
 net-im/skypeforlinux
 net-im/telegram-desktop-bin
@@ -191,6 +191,7 @@ net-misc/netkit-telnetd
 net-misc/ntp
 net-misc/remmina
 net-misc/tigervnc
+net-misc/wakeonlan
 net-misc/whois
 net-misc/youtube-dl
 net-p2p/transmission

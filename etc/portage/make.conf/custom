@@ -2,7 +2,7 @@
 # Configuration basique
 #-------------------------------
 # Mettre à jour depuis les paquets binaires (par défaut) ou les codes sources.
-#FEATURES="-getbinpkg"
+#FEATURES="${FEATURES} -getbinpkg"
 
 # Emerge will ignore matching binary packages. A space separated list of packags
 # names or slot atoms.
@@ -23,3 +23,6 @@ MAKEOPTS="-j13"
 # permet d'optimiser les applications en créant un code adapté à votre matériel.
 #CFLAGS="-O2 -march=native -pipe"
 #CXXFLAGS="${CFLAGS}"
+
+# Maximum size of the ccache.
+#CCACHE_SIZE="5G"
