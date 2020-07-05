@@ -21,11 +21,11 @@ media-sound/mixxx
 games-util/steam-launcher
 
 # VirtualBox Récent++
-app-emulation/virtualbox-modules ~amd64
-app-emulation/virtualbox-additions ~amd64
-app-emulation/virtualbox ~amd64
-app-emulation/virtualbox-extpack-oracle ~amd64
-dev-util/kbuild ~amd64
+#app-emulation/virtualbox-modules ~amd64
+#app-emulation/virtualbox-additions ~amd64
+#app-emulation/virtualbox ~amd64
+#app-emulation/virtualbox-extpack-oracle ~amd64
+#dev-util/kbuild ~amd64
 
 # Vivaldi
 www-client/vivaldi-snapshot

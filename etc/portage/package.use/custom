@@ -9,7 +9,7 @@ x11-libs/vte python
 #dev-libs/jansson abi_x86_32
 
 # KERNEL
-#sys-kernel/calculate-sources -minimal
+sys-kernel/calculate-sources fsync
 
 # Firefox
 #www-client/firefox pulseaudio -bindist
@@ -78,7 +78,7 @@ x11-themes/arc-theme mate
 dev-qt/qt-creator designer
 
 # Mixxx
-media-sound/mixxx shout
+media-sound/mixxx shout hid
 
 # GStreamer 
 # pb d'écran rose avec MP4 et Totem à cause de vaapi
@@ -87,6 +87,10 @@ media-plugins/gst-plugins-meta -vaapi
 # GNOME TEST
 gnome-base/gnome-shell -bluetooth
 gnome-base/gnome-core-apps -bluetooth
+
+# Virt viewer sans libvirt
+app-emulation/virt-viewer -libvirt 
+
 
 # MODIFS A CAUSE DE CONFLITS
 media-sound/abcde -id3tag

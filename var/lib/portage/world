@@ -1,3 +1,4 @@
+app-admin/ansible
 app-admin/ccze
 app-admin/conky
 app-admin/keepass
@@ -11,13 +12,14 @@ app-arch/lbzip2
 app-arch/p7zip
 app-arch/pigz
 app-arch/rar
+app-arch/rpm
 app-arch/unrar
 app-arch/unzip
 app-benchmarks/stress
 app-benchmarks/sysbench
 app-cdr/brasero
 app-cdr/iat
-app-cdr/nero
+app-crypt/certbot
 app-crypt/johntheripper
 app-crypt/nwipe
 app-crypt/sbsigntools
@@ -25,6 +27,8 @@ app-crypt/seahorse
 app-crypt/shim-signed
 app-editors/nano
 app-editors/vim
+app-emulation/virt-manager
+app-emulation/virt-viewer
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
@@ -56,12 +60,17 @@ app-text/pdfshuffler
 app-text/wgetpaste
 app-vim/colorschemes
 dev-db/mariadb
+dev-db/mysql-workbench
 dev-java/icedtea-bin:8
+dev-libs/libhid
+dev-perl/DateTime
 dev-perl/Locale-gettext
 dev-perl/Switch
+dev-perl/Text-CSV
 dev-perl/Tk
 dev-perl/XML-Parser
 dev-python/PyQt5
+dev-python/bottle
 dev-python/pygobject:3
 dev-qt/qtdeclarative
 dev-qt/qtmultimedia
@@ -83,7 +92,6 @@ gnome-extra/gnome-calendar
 gnome-extra/gnome-shell-extension-appindicator
 gnome-extra/gnome-shell-extension-dash-to-dock
 gnome-extra/gnome-shell-extension-gsconnect
-gnome-extra/gnome-software
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 gnome-extra/gnome-weather
@@ -117,7 +125,6 @@ mate-extra/mate-power-manager
 mate-extra/mate-screensaver
 mate-extra/mate-sensors-applet
 mate-extra/mate-system-monitor
-mate-extra/mate-tweak
 mate-extra/mate-user-guide
 mate-extra/mate-utils
 mate-extra/reload-mate
@@ -154,11 +161,11 @@ media-sound/soundconverter
 media-sound/sox
 media-sound/spotify
 media-sound/teamspeak-client
+media-sound/terminatorx
 media-sound/vorbisgain
 media-video/alexandra
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
-media-video/ffmulticonverter
 media-video/guvcview
 media-video/mediainfo
 media-video/molotov
@@ -180,8 +187,8 @@ net-dns/bind-tools
 net-fs/nfs-utils
 net-fs/sshfs
 net-ftp/filezilla
-net-im/riot-web
 net-im/skypeforlinux
+net-im/teams
 net-im/telegram-desktop-bin
 net-irc/hexchat
 net-misc/anydesk
@@ -207,6 +214,8 @@ sys-apps/dcfldd
 sys-apps/dmidecode
 sys-apps/etcher
 sys-apps/ethtool
+sys-apps/flatpak
+sys-apps/gnome-disk-utility
 sys-apps/ifplugd
 sys-apps/inxi
 sys-apps/less
@@ -257,10 +266,11 @@ www-client/epiphany
 www-client/firefox
 www-client/links
 www-client/opera
-www-client/vivaldi-snapshot
+www-client/vivaldi
 www-misc/get-ffmpeg-vivaldi
 www-plugins/chrome-binary-plugins
 www-servers/apache
+x11-apps/xclock
 x11-misc/compton
 x11-misc/imake
 x11-misc/lightdm-gtk-greeter
@@ -275,7 +285,6 @@ x11-terms/guake
 x11-terms/xterm
 x11-themes/QGnomePlatform
 x11-themes/adwaita-qt
-x11-themes/arc-icon-theme
 x11-themes/calculate-icon-theme
 x11-themes/commonbox-styles
 x11-themes/commonbox-styles-extra
@@ -283,8 +292,6 @@ x11-themes/elementary-icon-theme
 x11-themes/fluxbox-styles-fluxmod
 x11-themes/gtk-theme-switch
 x11-themes/mate-themes
-x11-themes/mint-x-icons
 x11-themes/papirus-icon-theme
-x11-themes/surfn-icon-theme
 x11-wm/fluxbox
 x11-wm/mutter
