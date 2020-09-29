@@ -1,7 +1,7 @@
 app-admin/ansible
 app-admin/ccze
 app-admin/conky
-app-admin/keepass
+app-admin/keepassxc
 app-admin/logrotate
 app-admin/rsyslog
 app-admin/sudo
@@ -26,6 +26,7 @@ app-crypt/sbsigntools
 app-crypt/seahorse
 app-crypt/shim-signed
 app-editors/nano
+app-editors/notepadqq
 app-editors/vim
 app-emulation/virt-manager
 app-emulation/virt-viewer
@@ -46,6 +47,7 @@ app-misc/screen
 app-misc/sl
 app-misc/tmux
 app-misc/xorg-meta
+app-mobilephone/scrcpy
 app-office/libreoffice
 app-office/libreoffice-l10n
 app-portage/eix
@@ -65,13 +67,16 @@ dev-java/icedtea-bin:8
 dev-libs/libhid
 dev-perl/DateTime
 dev-perl/Locale-gettext
+dev-perl/MusicBrainz-DiscID
 dev-perl/Switch
 dev-perl/Text-CSV
 dev-perl/Tk
+dev-perl/WebService-MusicBrainz
 dev-perl/XML-Parser
 dev-python/PyQt5
 dev-python/bottle
 dev-python/pygobject:3
+dev-qt/qt-creator
 dev-qt/qtdeclarative
 dev-qt/qtmultimedia
 dev-qt/qtwebsockets
@@ -82,6 +87,7 @@ dev-util/strace
 dev-vcs/git
 games-arcade/blobby
 games-emulation/dosbox
+games-emulation/vbam
 games-emulation/vgba
 games-util/steam-launcher
 gnome-base/dconf-editor
@@ -117,7 +123,6 @@ mate-base/mate-session-manager
 mate-base/mate-settings-daemon
 mate-extra/caja-extensions
 mate-extra/caja-su
-mate-extra/mate-calc
 mate-extra/mate-media
 mate-extra/mate-netbook
 mate-extra/mate-polkit
@@ -163,6 +168,7 @@ media-sound/spotify
 media-sound/teamspeak-client
 media-sound/terminatorx
 media-sound/vorbisgain
+media-tv/v4l-utils
 media-video/alexandra
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
@@ -183,13 +189,15 @@ net-analyzer/net-snmp
 net-analyzer/nmap
 net-analyzer/speedtest-cli
 net-analyzer/traceroute
+net-analyzer/wireshark
 net-dns/bind-tools
 net-fs/nfs-utils
 net-fs/sshfs
 net-ftp/filezilla
 net-im/skypeforlinux
+net-im/slack
 net-im/teams
-net-im/telegram-desktop-bin
+net-im/telegram-desktop
 net-irc/hexchat
 net-misc/anydesk
 net-misc/dhcp
@@ -207,6 +215,7 @@ net-vpn/networkmanager-fortisslvpn
 net-vpn/openfortivpn
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant
+sci-calculators/galculator
 sys-apps/acl
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
@@ -247,12 +256,14 @@ sys-fs/simple-mtpfs
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
 sys-kernel/dracut
+sys-kernel/gentoo-sources
 sys-libs/ncurses
 sys-power/acpi
 sys-power/cpupower
 sys-power/powertop
 sys-process/at
 sys-process/atop
+sys-process/bpytop
 sys-process/cpu-x
 sys-process/glances
 sys-process/htop
@@ -263,6 +274,7 @@ virtual/cron
 virtual/logger
 www-client/chromium
 www-client/epiphany
+www-client/falkon
 www-client/firefox
 www-client/links
 www-client/opera
