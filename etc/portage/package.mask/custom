@@ -2,3 +2,6 @@
 #=media-sound/alsa-utils-1.1.8
 #=media-libs/alsa-lib-1.1.8
 # Solution: sudo ln -sv /usr/share/alsa/alsa.conf.d/51-pulseaudio-probe.conf /etc/alsa/conf.d/
+
+# Pb Wave : https://bugs.gentoo.org/736192
+=media-sound/audacity-2.4.2-r1

@@ -255,6 +255,7 @@ sys-fs/reiserfsprogs
 sys-fs/simple-mtpfs
 sys-fs/xfsprogs
 sys-kernel/calculate-sources
+sys-kernel/calculate-sources:5.4.57
 sys-kernel/dracut
 sys-kernel/gentoo-sources
 sys-libs/ncurses
@@ -283,6 +284,9 @@ www-misc/get-ffmpeg-vivaldi
 www-plugins/chrome-binary-plugins
 www-servers/apache
 x11-apps/xclock
+x11-libs/wxGTK
+x11-libs/wxGTK:3.0
+x11-libs/wxGTK:3.0-gtk3
 x11-misc/compton
 x11-misc/imake
 x11-misc/lightdm-gtk-greeter
