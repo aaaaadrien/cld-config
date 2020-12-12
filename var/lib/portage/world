@@ -26,7 +26,6 @@ app-crypt/sbsigntools
 app-crypt/seahorse
 app-crypt/shim-signed
 app-editors/nano
-app-editors/notepadqq
 app-editors/vim
 app-emulation/virt-manager
 app-emulation/virt-viewer
@@ -58,11 +57,9 @@ app-portage/repoman
 app-shells/bash-completion
 app-shells/fish
 app-shells/ksh
-app-text/pdfshuffler
 app-text/wgetpaste
 app-vim/colorschemes
 dev-db/mariadb
-dev-db/mysql-workbench
 dev-java/icedtea-bin:8
 dev-libs/libhid
 dev-perl/DateTime
@@ -165,11 +162,9 @@ media-sound/rhythmbox
 media-sound/soundconverter
 media-sound/sox
 media-sound/spotify
-media-sound/teamspeak-client
 media-sound/terminatorx
 media-sound/vorbisgain
 media-tv/v4l-utils
-media-video/alexandra
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
 media-video/guvcview
@@ -179,7 +174,6 @@ media-video/mplayer
 media-video/mpv
 media-video/obs-studio
 media-video/peek
-media-video/pitivi
 media-video/simplescreenrecorder
 media-video/smplayer
 media-video/smtube
@@ -202,6 +196,7 @@ net-irc/hexchat
 net-misc/anydesk
 net-misc/dhcp
 net-misc/icecast
+net-misc/ipcalc
 net-misc/netkit-telnetd
 net-misc/ntp
 net-misc/remmina
@@ -209,6 +204,7 @@ net-misc/tigervnc
 net-misc/wakeonlan
 net-misc/whois
 net-misc/youtube-dl
+net-p2p/qbittorrent
 net-p2p/transmission
 net-print/foomatic-db-engine
 net-vpn/networkmanager-fortisslvpn
@@ -221,7 +217,6 @@ sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/dcfldd
 sys-apps/dmidecode
-sys-apps/etcher
 sys-apps/ethtool
 sys-apps/flatpak
 sys-apps/gnome-disk-utility
@@ -243,7 +238,6 @@ sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub:2
 sys-boot/os-prober
-sys-boot/woeusb
 sys-firmware/b43-firmware
 sys-fs/btrfs-progs
 sys-fs/dosfstools
@@ -254,8 +248,6 @@ sys-fs/quota
 sys-fs/reiserfsprogs
 sys-fs/simple-mtpfs
 sys-fs/xfsprogs
-sys-kernel/calculate-sources
-sys-kernel/calculate-sources:5.4.57
 sys-kernel/dracut
 sys-kernel/gentoo-sources
 sys-libs/ncurses
@@ -263,24 +255,18 @@ sys-power/acpi
 sys-power/cpupower
 sys-power/powertop
 sys-process/at
-sys-process/atop
 sys-process/bpytop
-sys-process/cpu-x
-sys-process/glances
 sys-process/htop
-sys-process/iotop
 sys-process/nmon
 virtual/adrien-cldg-config
 virtual/cron
 virtual/logger
 www-client/chromium
 www-client/epiphany
-www-client/falkon
 www-client/firefox
 www-client/links
 www-client/opera
 www-client/vivaldi
-www-misc/get-ffmpeg-vivaldi
 www-plugins/chrome-binary-plugins
 www-servers/apache
 x11-apps/xclock
@@ -290,12 +276,9 @@ x11-libs/wxGTK:3.0-gtk3
 x11-misc/compton
 x11-misc/imake
 x11-misc/lightdm-gtk-greeter
-x11-misc/menulibre
 x11-misc/numlockx
-x11-misc/redshift
 x11-misc/sux
 x11-misc/xdotool
-x11-misc/xzoom
 x11-terms/cool-retro-term
 x11-terms/guake
 x11-terms/xterm
@@ -304,7 +287,6 @@ x11-themes/adwaita-qt
 x11-themes/calculate-icon-theme
 x11-themes/commonbox-styles
 x11-themes/commonbox-styles-extra
-x11-themes/elementary-icon-theme
 x11-themes/fluxbox-styles-fluxmod
 x11-themes/gtk-theme-switch
 x11-themes/mate-themes
