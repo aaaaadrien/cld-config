@@ -176,7 +176,6 @@ media-video/obs-studio
 media-video/peek
 media-video/simplescreenrecorder
 media-video/smplayer
-media-video/smtube
 net-analyzer/iftop
 net-analyzer/iptraf-ng
 net-analyzer/net-snmp
@@ -191,7 +190,7 @@ net-ftp/filezilla
 net-im/skypeforlinux
 net-im/slack
 net-im/teams
-net-im/telegram-desktop
+net-im/telegram-desktop-bin
 net-irc/hexchat
 net-misc/anydesk
 net-misc/dhcp
@@ -247,6 +246,7 @@ sys-fs/eudev
 sys-fs/quota
 sys-fs/reiserfsprogs
 sys-fs/simple-mtpfs
+sys-fs/udftools
 sys-fs/xfsprogs
 sys-kernel/dracut
 sys-kernel/gentoo-sources

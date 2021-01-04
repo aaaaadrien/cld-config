@@ -26,3 +26,6 @@ MAKEOPTS="-j13"
 
 # Maximum size of the ccache.
 #CCACHE_SIZE="5G"
+
+# Compression parameters for binary packages
+BINPKG_COMPRESS_FLAGS="-19 -T12"
