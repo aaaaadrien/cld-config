@@ -91,8 +91,8 @@ media-plugins/gst-plugins-meta -vaapi
 gnome-base/gnome-shell -bluetooth
 gnome-base/gnome-core-apps -bluetooth
 
-# Virt viewer sans libvirt
-app-emulation/virt-viewer -libvirt 
+# Keepass avec Browser
+app-admin/keepassxc browser autotype
 
 
 # MODIFS A CAUSE DE CONFLITS

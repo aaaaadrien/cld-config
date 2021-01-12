@@ -28,7 +28,6 @@ app-crypt/shim-signed
 app-editors/nano
 app-editors/vim
 app-emulation/virt-manager
-app-emulation/virt-viewer
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
@@ -168,6 +167,7 @@ media-tv/v4l-utils
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
 media-video/guvcview
+media-video/hypnotix
 media-video/mediainfo
 media-video/molotov
 media-video/mplayer
