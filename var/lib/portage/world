@@ -167,7 +167,6 @@ media-tv/v4l-utils
 media-video/ffmpeg
 media-video/ffmpegthumbnailer
 media-video/guvcview
-media-video/hypnotix
 media-video/mediainfo
 media-video/molotov
 media-video/mplayer
@@ -181,6 +180,7 @@ net-analyzer/iptraf-ng
 net-analyzer/net-snmp
 net-analyzer/nmap
 net-analyzer/speedtest-cli
+net-analyzer/tcpdump
 net-analyzer/traceroute
 net-analyzer/wireshark
 net-dns/bind-tools
@@ -250,6 +250,7 @@ sys-fs/udftools
 sys-fs/xfsprogs
 sys-kernel/dracut
 sys-kernel/gentoo-sources
+sys-kernel/linux-firmware
 sys-libs/ncurses
 sys-power/acpi
 sys-power/cpupower
