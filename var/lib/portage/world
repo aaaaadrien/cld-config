@@ -56,10 +56,10 @@ app-portage/repoman
 app-shells/bash-completion
 app-shells/fish
 app-shells/ksh
+app-text/pdfarranger
 app-text/wgetpaste
 app-vim/colorschemes
 dev-db/mariadb
-dev-java/icedtea-bin:8
 dev-libs/libhid
 dev-perl/DateTime
 dev-perl/Locale-gettext
@@ -243,6 +243,7 @@ sys-fs/dosfstools
 sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
+sys-fs/exfat-utils
 sys-fs/quota
 sys-fs/reiserfsprogs
 sys-fs/simple-mtpfs

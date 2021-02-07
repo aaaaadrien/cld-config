@@ -29,6 +29,7 @@ games-util/steam-launcher
 
 # Vivaldi
 www-client/vivaldi-snapshot
+www-client/vivaldi
 
 # Telegram 
 net-im/telegram-desktop-bin
@@ -98,3 +99,7 @@ net-misc/freerdp
 #=app-portage/pamageli-9999 **
 #=x11-libs/wxGTK-3.1.3-r301
 media-video/hypnotix
+app-text/pdfarranger
+# required by app-text/pdfarranger-1.6.2::gentoo
+# required by app-text/pdfarranger (argument)
+dev-python/pikepdf
