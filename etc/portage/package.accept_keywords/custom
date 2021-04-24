@@ -28,8 +28,8 @@ games-util/steam-launcher
 #dev-util/kbuild ~amd64
 
 # Vivaldi
-www-client/vivaldi-snapshot
-www-client/vivaldi
+www-client/vivaldi-snapshot 
+www-client/vivaldi 
 
 # Telegram 
 net-im/telegram-desktop-bin
@@ -57,7 +57,7 @@ sys-process/nmon
 sys-process/glances
 
 # nwipe
-#app-crypt/nwipe
+app-crypt/nwipe
 
 # Guake
 x11-terms/guake
@@ -94,6 +94,9 @@ media-sound/spotify
 net-misc/remmina
 net-misc/freerdp
 
+# Anydesk
+net-misc/anydesk
+
 # ZZZ TEST
 =media-libs/mesa-18.3.0
 #=app-portage/pamageli-9999 **
@@ -103,3 +106,5 @@ app-text/pdfarranger
 # required by app-text/pdfarranger-1.6.2::gentoo
 # required by app-text/pdfarranger (argument)
 dev-python/pikepdf
+
+app-misc/cointop

@@ -17,6 +17,10 @@ sys-kernel/calculate-sources fsync
 # Firefox
 #www-client/firefox pulseaudio -bindist
 
+# Vivaldi
+#www-client/vivaldi-snapshot widevine proprietary-codecs
+#www-client/vivaldi widevine proprietary-codecs
+
 # LAMP
 app-eselect/eselect-php apache2
 dev-lang/php  apache2 mysql cgi pam ssl xml mysqli pdo sqlite xmlreader xmlwriter -spell

@@ -37,6 +37,7 @@ app-emulation/winetricks
 app-forensics/rkhunter
 app-misc/banner
 app-misc/cmatrix
+app-misc/cointop-bin
 app-misc/figlet
 app-misc/mc
 app-misc/neofetch
@@ -79,6 +80,7 @@ dev-qt/qtwebsockets
 dev-util/android-tools
 dev-util/dialog
 dev-util/glade
+dev-util/shc
 dev-util/strace
 dev-vcs/git
 games-arcade/blobby
@@ -244,6 +246,7 @@ sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
 sys-fs/exfat-utils
+sys-fs/lsscsi
 sys-fs/quota
 sys-fs/reiserfsprogs
 sys-fs/simple-mtpfs
