@@ -43,7 +43,7 @@ then
 fi
 
 chemin="etc/portage/env/"
-if [ -f "/$chemin" ]
+if [ -d "/$chemin" ]
 then
         echo "On sauvegarde le env customisé..."
         if [ -d $chemin ]
@@ -51,7 +51,7 @@ then
                 rsync -avzh "/$chemin/" "$chemin/"
         else
                 mkdir -p "$chemin"
-                cp "/$chemin/*" "$chemin/"
+                rsync -avzh "/$chemin/" "$chemin/"
         fi
 fi
 
