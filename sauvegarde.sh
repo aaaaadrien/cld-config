@@ -48,7 +48,7 @@ then
         echo "On sauvegarde le env customisé..."
         if [ -d $chemin ]
         then
-                cp "/$chemin/*" "$chemin/"
+                rsync -avzh "/$chemin/" "$chemin/"
         else
                 mkdir -p "$chemin"
                 cp "/$chemin/*" "$chemin/"
