@@ -108,3 +108,6 @@ app-text/pdfarranger
 dev-python/pikepdf
 
 app-misc/cointop
+
+# bench Apache
+app-benchmarks/hey

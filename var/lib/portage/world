@@ -15,6 +15,7 @@ app-arch/rar
 app-arch/rpm
 app-arch/unrar
 app-arch/unzip
+app-benchmarks/hey
 app-benchmarks/stress
 app-benchmarks/sysbench
 app-cdr/brasero

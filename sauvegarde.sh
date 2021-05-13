@@ -42,6 +42,21 @@ then
         fi
 fi
 
+chemin="etc/portage/env/"
+if [ -f "/$chemin" ]
+then
+        echo "On sauvegarde le env customisé..."
+        if [ -d $chemin ]
+        then
+                cp "/$chemin/*" "$chemin/"
+        else
+                mkdir -p "$chemin"
+                cp "/$chemin/*" "$chemin/"
+        fi
+fi
+
+
+
 chemin="var/lib/portage/"
 if [ -f "/$chemin/world" ]
 then
