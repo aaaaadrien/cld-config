@@ -247,6 +247,7 @@ sys-fs/e2fsprogs
 sys-fs/ecryptfs-utils
 sys-fs/eudev
 sys-fs/exfat-utils
+sys-fs/f2fs-tools
 sys-fs/lsscsi
 sys-fs/quota
 sys-fs/reiserfsprogs
