@@ -5,7 +5,6 @@ app-admin/keepassxc
 app-admin/logrotate
 app-admin/rsyslog
 app-admin/sudo
-app-admin/system-config-printer
 app-admin/testdisk
 app-arch/file-roller
 app-arch/lbzip2
@@ -28,7 +27,6 @@ app-crypt/seahorse
 app-crypt/shim-signed
 app-editors/nano
 app-editors/vim
-app-emulation/virt-manager
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-extpack-oracle
@@ -40,7 +38,6 @@ app-misc/banner
 app-misc/cmatrix
 app-misc/cointop-bin
 app-misc/figlet
-app-misc/mc
 app-misc/neofetch
 app-misc/radeontop
 app-misc/screen
@@ -54,11 +51,9 @@ app-portage/eix
 app-portage/elt-patches
 app-portage/gentoolkit
 app-portage/pamageli
-app-portage/repoman
 app-shells/bash-completion
 app-shells/fish
 app-shells/ksh
-app-text/pdfarranger
 app-text/wgetpaste
 app-vim/colorschemes
 dev-db/mariadb
@@ -143,6 +138,7 @@ media-gfx/gnome-screenshot
 media-gfx/grub-splashes-calculate
 media-gfx/hugin
 media-gfx/mate-themes-calculate
+media-gfx/simple-scan
 media-gfx/splash-themes-calculate
 media-libs/libcaca
 media-libs/libmediainfo
@@ -157,6 +153,7 @@ media-sound/easytag
 media-sound/lame
 media-sound/mixxx
 media-sound/mp3gain
+media-sound/ocenaudio
 media-sound/paprefs
 media-sound/pavucontrol
 media-sound/qastools
@@ -220,6 +217,7 @@ sys-apps/calculate-utils:3
 sys-apps/dcfldd
 sys-apps/dmidecode
 sys-apps/ethtool
+sys-apps/firejail
 sys-apps/flatpak
 sys-apps/gnome-disk-utility
 sys-apps/ifplugd
@@ -264,6 +262,7 @@ sys-power/powertop
 sys-process/at
 sys-process/bpytop
 sys-process/htop
+sys-process/iotop
 sys-process/nmon
 virtual/adrien-cldg-config
 virtual/cron

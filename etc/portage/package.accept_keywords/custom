@@ -75,7 +75,7 @@ media-video/obs-studio
 media-sound/teamspeak-client
 
 # KDENLIVE
-<kde-apps/kdenlive-19.10
+#kde-apps/kdenlive
 # FREI0R => 1.5.0 = memory leak
 # media-plugins/frei0r-plugins
 # < mlt 6.10.0 = memory leak + pb son
@@ -97,6 +97,9 @@ net-misc/freerdp
 # Anydesk
 net-misc/anydesk
 
+# bench Apache
+app-benchmarks/hey
+
 # ZZZ TEST
 =media-libs/mesa-18.3.0
 #=app-portage/pamageli-9999 **
@@ -107,7 +110,3 @@ app-text/pdfarranger
 # required by app-text/pdfarranger (argument)
 dev-python/pikepdf
 
-app-misc/cointop
-
-# bench Apache
-app-benchmarks/hey
