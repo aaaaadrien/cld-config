@@ -30,6 +30,8 @@ games-util/steam-launcher
 # Vivaldi
 www-client/vivaldi-snapshot 
 www-client/vivaldi 
+media-video/ffmpeg-chromium
+
 
 # Telegram 
 net-im/telegram-desktop-bin

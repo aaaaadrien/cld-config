@@ -1,3 +1,8 @@
+#------------------------------------------------------------------------------
+# Modified Calculate Utilities 3.7.1.25
+# Processed template files:
+# /var/db/repos/distros/profiles/templates/3.5/6_ac_update_sync/world/update/2021/20211015
+#------------------------------------------------------------------------------
 app-admin/ansible
 app-admin/ccze
 app-admin/conky
@@ -76,6 +81,7 @@ dev-qt/qtwebsockets
 dev-util/android-tools
 dev-util/dialog
 dev-util/glade
+dev-util/scons
 dev-util/shc
 dev-util/strace
 dev-vcs/git
@@ -103,30 +109,6 @@ lxde-base/lxappearance
 mail-client/evolution
 mail-client/thunderbird
 mail-mta/ssmtp
-mate-base/caja
-mate-base/libmatekbd
-mate-base/mate
-mate-base/mate-applets
-mate-base/mate-applets-meta
-mate-base/mate-common
-mate-base/mate-control-center
-mate-base/mate-desktop
-mate-base/mate-menus
-mate-base/mate-panel
-mate-base/mate-session-manager
-mate-base/mate-settings-daemon
-mate-extra/caja-extensions
-mate-extra/caja-su
-mate-extra/mate-media
-mate-extra/mate-netbook
-mate-extra/mate-polkit
-mate-extra/mate-power-manager
-mate-extra/mate-screensaver
-mate-extra/mate-sensors-applet
-mate-extra/mate-system-monitor
-mate-extra/mate-user-guide
-mate-extra/mate-utils
-mate-extra/reload-mate
 media-fonts/msoffice-fonts
 media-fonts/terminus-font
 media-gfx/calculate-wallpapers
@@ -153,7 +135,6 @@ media-sound/easytag
 media-sound/lame
 media-sound/mixxx
 media-sound/mp3gain
-media-sound/ocenaudio
 media-sound/paprefs
 media-sound/pavucontrol
 media-sound/qastools
@@ -165,6 +146,7 @@ media-sound/terminatorx
 media-sound/vorbisgain
 media-tv/v4l-utils
 media-video/ffmpeg
+media-video/ffmpeg-chromium
 media-video/ffmpegthumbnailer
 media-video/guvcview
 media-video/mediainfo
@@ -187,6 +169,7 @@ net-dns/bind-tools
 net-fs/nfs-utils
 net-fs/sshfs
 net-ftp/filezilla
+net-im/discord-bin
 net-im/skypeforlinux
 net-im/slack
 net-im/teams
@@ -212,6 +195,7 @@ net-wireless/wireless-tools
 net-wireless/wpa_supplicant
 sci-calculators/galculator
 sys-apps/acl
+sys-apps/busybox
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
 sys-apps/dcfldd
@@ -283,6 +267,7 @@ x11-misc/compton
 x11-misc/imake
 x11-misc/lightdm-gtk-greeter
 x11-misc/numlockx
+x11-misc/redshift
 x11-misc/sux
 x11-misc/xdotool
 x11-terms/cool-retro-term
@@ -295,7 +280,15 @@ x11-themes/commonbox-styles
 x11-themes/commonbox-styles-extra
 x11-themes/fluxbox-styles-fluxmod
 x11-themes/gtk-theme-switch
-x11-themes/mate-themes
 x11-themes/papirus-icon-theme
 x11-wm/fluxbox
 x11-wm/mutter
+xfce-base/xfce4-meta
+xfce-extra/thunar-archive-plugin
+xfce-extra/thunar-media-tags-plugin
+xfce-extra/xfce4-notifyd
+xfce-extra/xfce4-sensors-plugin
+xfce-extra/xfce4-systemload-plugin
+xfce-extra/xfce4-volumed-pulse
+xfce-extra/xfce4-weather-plugin
+xfce-extra/xfce4-whiskermenu-plugin
